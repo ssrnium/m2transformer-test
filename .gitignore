@@ -6,7 +6,6 @@ env/
 .idea/
 .vscode/
 output_logs/
-data/
 *.pt
 *.pth
 *.ckpt

@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+output_logs/
+data/
+*.pt
+*.pth
+*.ckpt

@@ -50,8 +50,8 @@ class Dataset(object):
 
     def __getattr__(self, attr):
         if attr in self.fields:
-            for x in self.examples:
-                yield getattr(x, attr)
+            return (getattr(x, attr) for x in self.examples)
+        raise AttributeError(attr)
 
 
 class ValueDataset(Dataset):
@@ -276,4 +276,3 @@ class COCO(PairedDataset):
                     test_samples.append(example)
 
         return train_samples, val_samples, test_samples
-

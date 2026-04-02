@@ -2,6 +2,7 @@ import os
 import numpy as np
 import itertools
 import collections
+import collections.abc
 import torch
 from .example import Example
 from .utils import nostdout
@@ -23,7 +24,7 @@ class Dataset(object):
             tensors = []
             for field, data in zip(self.fields.values(), batch):
                 tensor = field.process(data)
-                if isinstance(tensor, collections.Sequence) and any(isinstance(t, torch.Tensor) for t in tensor):
+                if isinstance(tensor, collections.abc.Sequence) and any(isinstance(t, torch.Tensor) for t in tensor):
                     tensors.extend(tensor)
                 else:
                     tensors.append(tensor)
@@ -65,7 +66,7 @@ class ValueDataset(Dataset):
             value_tensors_flattened = super(ValueDataset, self).collate_fn()(value_batch_flattened)
 
             lengths = [0, ] + list(itertools.accumulate([len(x) for x in batch]))
-            if isinstance(value_tensors_flattened, collections.Sequence) \
+            if isinstance(value_tensors_flattened, collections.abc.Sequence) \
                     and any(isinstance(t, torch.Tensor) for t in value_tensors_flattened):
                 value_tensors = [[vt[s:e] for (s, e) in zip(lengths[:-1], lengths[1:])] for vt in value_tensors_flattened]
             else:

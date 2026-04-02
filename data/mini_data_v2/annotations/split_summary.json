@@ -1,0 +1,38 @@
+{
+  "seed": 1234,
+  "split_by_category": {
+    "Anthracnose": {
+      "train_images": 128,
+      "dev_images": 16,
+      "test_images": 16
+    },
+    "Bacterial Wilt": {
+      "train_images": 128,
+      "dev_images": 16,
+      "test_images": 16
+    },
+    "Downy Mildew": {
+      "train_images": 128,
+      "dev_images": 16,
+      "test_images": 16
+    },
+    "Fresh Leaf": {
+      "train_images": 128,
+      "dev_images": 16,
+      "test_images": 16
+    },
+    "Gummy Stem Blight": {
+      "train_images": 128,
+      "dev_images": 16,
+      "test_images": 16
+    }
+  },
+  "train_images": 640,
+  "dev_images": 80,
+  "test_images": 80,
+  "train_annotations": 3200,
+  "dev_annotations": 400,
+  "test_annotations": 400,
+  "train_dir": "d:\\chines-clip-nnn\\复现\\M²Transformer GitHub\\meshed-memory-transformer-master\\meshed-memory-transformer-master\\data\\mini_data_v2\\images\\train2014",
+  "val_dir": "d:\\chines-clip-nnn\\复现\\M²Transformer GitHub\\meshed-memory-transformer-master\\meshed-memory-transformer-master\\data\\mini_data_v2\\images\\val2014"
+}

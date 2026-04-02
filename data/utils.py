@@ -35,7 +35,10 @@ def get_tokenizer(tokenizer):
     if tokenizer == "spacy":
         try:
             import spacy
-            spacy_en = spacy.load('en')
+            try:
+                spacy_en = spacy.load("en_core_web_sm")
+            except OSError:
+                spacy_en = spacy.blank("en")
             return lambda s: [tok.text for tok in spacy_en.tokenizer(s)]
         except ImportError:
             print("Please install SpaCy and the SpaCy English tokenizer. "

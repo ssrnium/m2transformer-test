@@ -155,6 +155,7 @@ if __name__ == '__main__':
 
     print('Meshed-Memory Transformer Training')
 
+    os.makedirs(args.logs_folder, exist_ok=True)
     writer = SummaryWriter(log_dir=os.path.join(args.logs_folder, args.exp_name))
 
     # Pipeline for image regions
@@ -301,6 +302,7 @@ if __name__ == '__main__':
             print('Resuming from epoch %d, validation loss %f, and best cider %f' % (
                 data['epoch'], data['val_loss'], data['best_cider']))
 
+        os.makedirs('saved_models', exist_ok=True)
         torch.save({
             'torch_rng_state': torch.get_rng_state(),
             'cuda_rng_state': torch.cuda.get_rng_state(),

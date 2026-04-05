@@ -255,7 +255,8 @@ if __name__ == '__main__':
         writer.add_scalar('data/val_cider', val_cider, e)
         writer.add_scalar('data/val_bleu1', scores['BLEU'][0], e)
         writer.add_scalar('data/val_bleu4', scores['BLEU'][3], e)
-        writer.add_scalar('data/val_meteor', scores['METEOR'], e)
+        if 'METEOR' in scores:
+            writer.add_scalar('data/val_meteor', scores['METEOR'], e)
         writer.add_scalar('data/val_rouge', scores['ROUGE'], e)
 
         # Test scores
@@ -264,7 +265,8 @@ if __name__ == '__main__':
         writer.add_scalar('data/test_cider', scores['CIDEr'], e)
         writer.add_scalar('data/test_bleu1', scores['BLEU'][0], e)
         writer.add_scalar('data/test_bleu4', scores['BLEU'][3], e)
-        writer.add_scalar('data/test_meteor', scores['METEOR'], e)
+        if 'METEOR' in scores:
+            writer.add_scalar('data/test_meteor', scores['METEOR'], e)
         writer.add_scalar('data/test_rouge', scores['ROUGE'], e)
 
         # Prepare for next epoch

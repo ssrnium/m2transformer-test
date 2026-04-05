@@ -32,6 +32,8 @@ def reporthook(t):
 def get_tokenizer(tokenizer):
     if callable(tokenizer):
         return tokenizer
+    if tokenizer == "zh_char":
+        return lambda s: [ch for ch in s if not ch.isspace()]
     if tokenizer == "spacy":
         try:
             import spacy
@@ -77,6 +79,7 @@ def get_tokenizer(tokenizer):
             raise
     raise ValueError("Requested tokenizer {}, valid choices are a "
                      "callable that takes a single string as input, "
+                     "\"zh_char\" for a simple Chinese character-level tokenizer, "
                      "\"revtok\" for the revtok reversible tokenizer, "
                      "\"subword\" for the revtok caps-aware tokenizer, "
                      "\"spacy\" for the SpaCy English tokenizer, or "

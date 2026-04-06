@@ -1,0 +1,4652 @@
+{
+  "info": {
+    "description": "Five-class mini_data_v2 static annotations for M2 Transformer",
+    "seed": 1234
+  },
+  "licenses": [],
+  "type": "captions",
+  "images": [
+    {
+      "id": 1,
+      "file_name": "COCO_val2014_000000000001.jpg"
+    },
+    {
+      "id": 3,
+      "file_name": "COCO_val2014_000000000003.jpg"
+    },
+    {
+      "id": 4,
+      "file_name": "COCO_val2014_000000000004.jpg"
+    },
+    {
+      "id": 7,
+      "file_name": "COCO_val2014_000000000007.jpg"
+    },
+    {
+      "id": 8,
+      "file_name": "COCO_val2014_000000000008.jpg"
+    },
+    {
+      "id": 11,
+      "file_name": "COCO_val2014_000000000011.jpg"
+    },
+    {
+      "id": 16,
+      "file_name": "COCO_val2014_000000000016.jpg"
+    },
+    {
+      "id": 17,
+      "file_name": "COCO_val2014_000000000017.jpg"
+    },
+    {
+      "id": 21,
+      "file_name": "COCO_val2014_000000000021.jpg"
+    },
+    {
+      "id": 22,
+      "file_name": "COCO_val2014_000000000022.jpg"
+    },
+    {
+      "id": 23,
+      "file_name": "COCO_val2014_000000000023.jpg"
+    },
+    {
+      "id": 25,
+      "file_name": "COCO_val2014_000000000025.jpg"
+    },
+    {
+      "id": 29,
+      "file_name": "COCO_val2014_000000000029.jpg"
+    },
+    {
+      "id": 38,
+      "file_name": "COCO_val2014_000000000038.jpg"
+    },
+    {
+      "id": 46,
+      "file_name": "COCO_val2014_000000000046.jpg"
+    },
+    {
+      "id": 60,
+      "file_name": "COCO_val2014_000000000060.jpg"
+    },
+    {
+      "id": 63,
+      "file_name": "COCO_val2014_000000000063.jpg"
+    },
+    {
+      "id": 69,
+      "file_name": "COCO_val2014_000000000069.jpg"
+    },
+    {
+      "id": 88,
+      "file_name": "COCO_val2014_000000000088.jpg"
+    },
+    {
+      "id": 90,
+      "file_name": "COCO_val2014_000000000090.jpg"
+    },
+    {
+      "id": 112,
+      "file_name": "COCO_val2014_000000000112.jpg"
+    },
+    {
+      "id": 118,
+      "file_name": "COCO_val2014_000000000118.jpg"
+    },
+    {
+      "id": 119,
+      "file_name": "COCO_val2014_000000000119.jpg"
+    },
+    {
+      "id": 123,
+      "file_name": "COCO_val2014_000000000123.jpg"
+    },
+    {
+      "id": 124,
+      "file_name": "COCO_val2014_000000000124.jpg"
+    },
+    {
+      "id": 128,
+      "file_name": "COCO_val2014_000000000128.jpg"
+    },
+    {
+      "id": 131,
+      "file_name": "COCO_val2014_000000000131.jpg"
+    },
+    {
+      "id": 135,
+      "file_name": "COCO_val2014_000000000135.jpg"
+    },
+    {
+      "id": 149,
+      "file_name": "COCO_val2014_000000000149.jpg"
+    },
+    {
+      "id": 155,
+      "file_name": "COCO_val2014_000000000155.jpg"
+    },
+    {
+      "id": 156,
+      "file_name": "COCO_val2014_000000000156.jpg"
+    },
+    {
+      "id": 158,
+      "file_name": "COCO_val2014_000000000158.jpg"
+    },
+    {
+      "id": 160,
+      "file_name": "COCO_val2014_000000000160.jpg"
+    },
+    {
+      "id": 170,
+      "file_name": "COCO_val2014_000000000170.jpg"
+    },
+    {
+      "id": 172,
+      "file_name": "COCO_val2014_000000000172.jpg"
+    },
+    {
+      "id": 175,
+      "file_name": "COCO_val2014_000000000175.jpg"
+    },
+    {
+      "id": 177,
+      "file_name": "COCO_val2014_000000000177.jpg"
+    },
+    {
+      "id": 182,
+      "file_name": "COCO_val2014_000000000182.jpg"
+    },
+    {
+      "id": 193,
+      "file_name": "COCO_val2014_000000000193.jpg"
+    },
+    {
+      "id": 195,
+      "file_name": "COCO_val2014_000000000195.jpg"
+    },
+    {
+      "id": 197,
+      "file_name": "COCO_val2014_000000000197.jpg"
+    },
+    {
+      "id": 199,
+      "file_name": "COCO_val2014_000000000199.jpg"
+    },
+    {
+      "id": 202,
+      "file_name": "COCO_val2014_000000000202.jpg"
+    },
+    {
+      "id": 203,
+      "file_name": "COCO_val2014_000000000203.jpg"
+    },
+    {
+      "id": 213,
+      "file_name": "COCO_val2014_000000000213.jpg"
+    },
+    {
+      "id": 215,
+      "file_name": "COCO_val2014_000000000215.jpg"
+    },
+    {
+      "id": 231,
+      "file_name": "COCO_val2014_000000000231.jpg"
+    },
+    {
+      "id": 237,
+      "file_name": "COCO_val2014_000000000237.jpg"
+    },
+    {
+      "id": 243,
+      "file_name": "COCO_val2014_000000000243.jpg"
+    },
+    {
+      "id": 245,
+      "file_name": "COCO_val2014_000000000245.jpg"
+    },
+    {
+      "id": 250,
+      "file_name": "COCO_val2014_000000000250.jpg"
+    },
+    {
+      "id": 257,
+      "file_name": "COCO_val2014_000000000257.jpg"
+    },
+    {
+      "id": 260,
+      "file_name": "COCO_val2014_000000000260.jpg"
+    },
+    {
+      "id": 268,
+      "file_name": "COCO_val2014_000000000268.jpg"
+    },
+    {
+      "id": 270,
+      "file_name": "COCO_val2014_000000000270.jpg"
+    },
+    {
+      "id": 280,
+      "file_name": "COCO_val2014_000000000280.jpg"
+    },
+    {
+      "id": 287,
+      "file_name": "COCO_val2014_000000000287.jpg"
+    },
+    {
+      "id": 296,
+      "file_name": "COCO_val2014_000000000296.jpg"
+    },
+    {
+      "id": 299,
+      "file_name": "COCO_val2014_000000000299.jpg"
+    },
+    {
+      "id": 300,
+      "file_name": "COCO_val2014_000000000300.jpg"
+    },
+    {
+      "id": 303,
+      "file_name": "COCO_val2014_000000000303.jpg"
+    },
+    {
+      "id": 306,
+      "file_name": "COCO_val2014_000000000306.jpg"
+    },
+    {
+      "id": 318,
+      "file_name": "COCO_val2014_000000000318.jpg"
+    },
+    {
+      "id": 319,
+      "file_name": "COCO_val2014_000000000319.jpg"
+    },
+    {
+      "id": 324,
+      "file_name": "COCO_val2014_000000000324.jpg"
+    },
+    {
+      "id": 330,
+      "file_name": "COCO_val2014_000000000330.jpg"
+    },
+    {
+      "id": 331,
+      "file_name": "COCO_val2014_000000000331.jpg"
+    },
+    {
+      "id": 337,
+      "file_name": "COCO_val2014_000000000337.jpg"
+    },
+    {
+      "id": 338,
+      "file_name": "COCO_val2014_000000000338.jpg"
+    },
+    {
+      "id": 341,
+      "file_name": "COCO_val2014_000000000341.jpg"
+    },
+    {
+      "id": 353,
+      "file_name": "COCO_val2014_000000000353.jpg"
+    },
+    {
+      "id": 355,
+      "file_name": "COCO_val2014_000000000355.jpg"
+    },
+    {
+      "id": 357,
+      "file_name": "COCO_val2014_000000000357.jpg"
+    },
+    {
+      "id": 361,
+      "file_name": "COCO_val2014_000000000361.jpg"
+    },
+    {
+      "id": 362,
+      "file_name": "COCO_val2014_000000000362.jpg"
+    },
+    {
+      "id": 378,
+      "file_name": "COCO_val2014_000000000378.jpg"
+    },
+    {
+      "id": 382,
+      "file_name": "COCO_val2014_000000000382.jpg"
+    },
+    {
+      "id": 403,
+      "file_name": "COCO_val2014_000000000403.jpg"
+    },
+    {
+      "id": 404,
+      "file_name": "COCO_val2014_000000000404.jpg"
+    },
+    {
+      "id": 409,
+      "file_name": "COCO_val2014_000000000409.jpg"
+    },
+    {
+      "id": 414,
+      "file_name": "COCO_val2014_000000000414.jpg"
+    },
+    {
+      "id": 415,
+      "file_name": "COCO_val2014_000000000415.jpg"
+    },
+    {
+      "id": 420,
+      "file_name": "COCO_val2014_000000000420.jpg"
+    },
+    {
+      "id": 424,
+      "file_name": "COCO_val2014_000000000424.jpg"
+    },
+    {
+      "id": 434,
+      "file_name": "COCO_val2014_000000000434.jpg"
+    },
+    {
+      "id": 442,
+      "file_name": "COCO_val2014_000000000442.jpg"
+    },
+    {
+      "id": 447,
+      "file_name": "COCO_val2014_000000000447.jpg"
+    },
+    {
+      "id": 449,
+      "file_name": "COCO_val2014_000000000449.jpg"
+    },
+    {
+      "id": 456,
+      "file_name": "COCO_val2014_000000000456.jpg"
+    },
+    {
+      "id": 461,
+      "file_name": "COCO_val2014_000000000461.jpg"
+    },
+    {
+      "id": 464,
+      "file_name": "COCO_val2014_000000000464.jpg"
+    },
+    {
+      "id": 466,
+      "file_name": "COCO_val2014_000000000466.jpg"
+    },
+    {
+      "id": 467,
+      "file_name": "COCO_val2014_000000000467.jpg"
+    },
+    {
+      "id": 469,
+      "file_name": "COCO_val2014_000000000469.jpg"
+    },
+    {
+      "id": 473,
+      "file_name": "COCO_val2014_000000000473.jpg"
+    },
+    {
+      "id": 478,
+      "file_name": "COCO_val2014_000000000478.jpg"
+    },
+    {
+      "id": 487,
+      "file_name": "COCO_val2014_000000000487.jpg"
+    },
+    {
+      "id": 491,
+      "file_name": "COCO_val2014_000000000491.jpg"
+    },
+    {
+      "id": 494,
+      "file_name": "COCO_val2014_000000000494.jpg"
+    },
+    {
+      "id": 499,
+      "file_name": "COCO_val2014_000000000499.jpg"
+    },
+    {
+      "id": 501,
+      "file_name": "COCO_val2014_000000000501.jpg"
+    },
+    {
+      "id": 505,
+      "file_name": "COCO_val2014_000000000505.jpg"
+    },
+    {
+      "id": 507,
+      "file_name": "COCO_val2014_000000000507.jpg"
+    },
+    {
+      "id": 520,
+      "file_name": "COCO_val2014_000000000520.jpg"
+    },
+    {
+      "id": 522,
+      "file_name": "COCO_val2014_000000000522.jpg"
+    },
+    {
+      "id": 524,
+      "file_name": "COCO_val2014_000000000524.jpg"
+    },
+    {
+      "id": 525,
+      "file_name": "COCO_val2014_000000000525.jpg"
+    },
+    {
+      "id": 530,
+      "file_name": "COCO_val2014_000000000530.jpg"
+    },
+    {
+      "id": 531,
+      "file_name": "COCO_val2014_000000000531.jpg"
+    },
+    {
+      "id": 546,
+      "file_name": "COCO_val2014_000000000546.jpg"
+    },
+    {
+      "id": 547,
+      "file_name": "COCO_val2014_000000000547.jpg"
+    },
+    {
+      "id": 549,
+      "file_name": "COCO_val2014_000000000549.jpg"
+    },
+    {
+      "id": 558,
+      "file_name": "COCO_val2014_000000000558.jpg"
+    },
+    {
+      "id": 560,
+      "file_name": "COCO_val2014_000000000560.jpg"
+    },
+    {
+      "id": 561,
+      "file_name": "COCO_val2014_000000000561.jpg"
+    },
+    {
+      "id": 562,
+      "file_name": "COCO_val2014_000000000562.jpg"
+    },
+    {
+      "id": 565,
+      "file_name": "COCO_val2014_000000000565.jpg"
+    },
+    {
+      "id": 567,
+      "file_name": "COCO_val2014_000000000567.jpg"
+    },
+    {
+      "id": 576,
+      "file_name": "COCO_val2014_000000000576.jpg"
+    },
+    {
+      "id": 588,
+      "file_name": "COCO_val2014_000000000588.jpg"
+    },
+    {
+      "id": 591,
+      "file_name": "COCO_val2014_000000000591.jpg"
+    },
+    {
+      "id": 593,
+      "file_name": "COCO_val2014_000000000593.jpg"
+    },
+    {
+      "id": 598,
+      "file_name": "COCO_val2014_000000000598.jpg"
+    },
+    {
+      "id": 599,
+      "file_name": "COCO_val2014_000000000599.jpg"
+    },
+    {
+      "id": 601,
+      "file_name": "COCO_val2014_000000000601.jpg"
+    },
+    {
+      "id": 614,
+      "file_name": "COCO_val2014_000000000614.jpg"
+    },
+    {
+      "id": 618,
+      "file_name": "COCO_val2014_000000000618.jpg"
+    },
+    {
+      "id": 635,
+      "file_name": "COCO_val2014_000000000635.jpg"
+    },
+    {
+      "id": 642,
+      "file_name": "COCO_val2014_000000000642.jpg"
+    },
+    {
+      "id": 644,
+      "file_name": "COCO_val2014_000000000644.jpg"
+    },
+    {
+      "id": 645,
+      "file_name": "COCO_val2014_000000000645.jpg"
+    },
+    {
+      "id": 650,
+      "file_name": "COCO_val2014_000000000650.jpg"
+    },
+    {
+      "id": 668,
+      "file_name": "COCO_val2014_000000000668.jpg"
+    },
+    {
+      "id": 671,
+      "file_name": "COCO_val2014_000000000671.jpg"
+    },
+    {
+      "id": 693,
+      "file_name": "COCO_val2014_000000000693.jpg"
+    },
+    {
+      "id": 700,
+      "file_name": "COCO_val2014_000000000700.jpg"
+    },
+    {
+      "id": 702,
+      "file_name": "COCO_val2014_000000000702.jpg"
+    },
+    {
+      "id": 703,
+      "file_name": "COCO_val2014_000000000703.jpg"
+    },
+    {
+      "id": 714,
+      "file_name": "COCO_val2014_000000000714.jpg"
+    },
+    {
+      "id": 718,
+      "file_name": "COCO_val2014_000000000718.jpg"
+    },
+    {
+      "id": 724,
+      "file_name": "COCO_val2014_000000000724.jpg"
+    },
+    {
+      "id": 732,
+      "file_name": "COCO_val2014_000000000732.jpg"
+    },
+    {
+      "id": 740,
+      "file_name": "COCO_val2014_000000000740.jpg"
+    },
+    {
+      "id": 741,
+      "file_name": "COCO_val2014_000000000741.jpg"
+    },
+    {
+      "id": 745,
+      "file_name": "COCO_val2014_000000000745.jpg"
+    },
+    {
+      "id": 746,
+      "file_name": "COCO_val2014_000000000746.jpg"
+    },
+    {
+      "id": 747,
+      "file_name": "COCO_val2014_000000000747.jpg"
+    },
+    {
+      "id": 748,
+      "file_name": "COCO_val2014_000000000748.jpg"
+    },
+    {
+      "id": 750,
+      "file_name": "COCO_val2014_000000000750.jpg"
+    },
+    {
+      "id": 752,
+      "file_name": "COCO_val2014_000000000752.jpg"
+    },
+    {
+      "id": 755,
+      "file_name": "COCO_val2014_000000000755.jpg"
+    },
+    {
+      "id": 760,
+      "file_name": "COCO_val2014_000000000760.jpg"
+    },
+    {
+      "id": 764,
+      "file_name": "COCO_val2014_000000000764.jpg"
+    },
+    {
+      "id": 767,
+      "file_name": "COCO_val2014_000000000767.jpg"
+    },
+    {
+      "id": 772,
+      "file_name": "COCO_val2014_000000000772.jpg"
+    },
+    {
+      "id": 781,
+      "file_name": "COCO_val2014_000000000781.jpg"
+    },
+    {
+      "id": 784,
+      "file_name": "COCO_val2014_000000000784.jpg"
+    },
+    {
+      "id": 789,
+      "file_name": "COCO_val2014_000000000789.jpg"
+    },
+    {
+      "id": 797,
+      "file_name": "COCO_val2014_000000000797.jpg"
+    },
+    {
+      "id": 798,
+      "file_name": "COCO_val2014_000000000798.jpg"
+    }
+  ],
+  "annotations": [
+    {
+      "id": 3201,
+      "image_id": 1,
+      "caption": "Small, pale spots with yellow halos on the leaf surface."
+    },
+    {
+      "id": 3202,
+      "image_id": 1,
+      "caption": "Small, irregular spots with yellow halos and dark centers spread across the leaf surface."
+    },
+    {
+      "id": 3203,
+      "image_id": 1,
+      "caption": "Center of spots is dark, necrotic, with tissue decay or holes."
+    },
+    {
+      "id": 3204,
+      "image_id": 1,
+      "caption": "Anthracnose spots start small, irregular, then expand into dark, circular lesions on leaves."
+    },
+    {
+      "id": 3205,
+      "image_id": 1,
+      "caption": "Leaf has tan, irregular lesions with holes, characteristic of anthracnose."
+    },
+    {
+      "id": 3206,
+      "image_id": 3,
+      "caption": "Small, water-soaked spots on leaves, gray with yellow halos, some with cracks."
+    },
+    {
+      "id": 3207,
+      "image_id": 3,
+      "caption": "Irregular, sunken lesions with dark margins and gray centers; some spots have black specks on leaf."
+    },
+    {
+      "id": 3208,
+      "image_id": 3,
+      "caption": "Center of spots is grayish, sunken, and cracked."
+    },
+    {
+      "id": 3209,
+      "image_id": 3,
+      "caption": "Irregular, angular spots expand, merge; dark edges, gray centers."
+    },
+    {
+      "id": 3210,
+      "image_id": 3,
+      "caption": "Image shows leaf with anthracnose, not fruit infection."
+    },
+    {
+      "id": 3211,
+      "image_id": 4,
+      "caption": "Small, light brown lesions with faint yellow halos on the leaf."
+    },
+    {
+      "id": 3212,
+      "image_id": 4,
+      "caption": "Multiple dark lesions with necrotic spots and small holes scattered across the leaf."
+    },
+    {
+      "id": 3213,
+      "image_id": 4,
+      "caption": "Center of spots shows grayish-brown necrotic tissue with possible fungal growth."
+    },
+    {
+      "id": 3214,
+      "image_id": 4,
+      "caption": "Circular dark spots expand, often merging into larger lesions on leaves."
+    },
+    {
+      "id": 3215,
+      "image_id": 4,
+      "caption": "Leaf shows irregular brown lesions with gray centers and small holes, typical of anthracnose."
+    },
+    {
+      "id": 3216,
+      "image_id": 7,
+      "caption": "Small, water-soaked spots turning brown with yellow halos on leaf surface."
+    },
+    {
+      "id": 3217,
+      "image_id": 7,
+      "caption": "Multiple irregular brown lesions with yellow halos and small spots on the leaf."
+    },
+    {
+      "id": 3218,
+      "image_id": 7,
+      "caption": "Center of spots is dark brown, necrotic, with dry, cracked texture."
+    },
+    {
+      "id": 3219,
+      "image_id": 7,
+      "caption": "Circular spots with yellow margins, expanding to irregular shapes."
+    },
+    {
+      "id": 3220,
+      "image_id": 7,
+      "caption": "Leaf shows brown, irregular lesions with yellow halos, typical of anthracnose."
+    },
+    {
+      "id": 3221,
+      "image_id": 8,
+      "caption": "Small, water-soaked spots develop, turning brown with irregular edges and small holes."
+    },
+    {
+      "id": 3222,
+      "image_id": 8,
+      "caption": "Multiple dark lesions with holes indicate anthracnose spread and tissue decay on the leaf."
+    },
+    {
+      "id": 3223,
+      "image_id": 8,
+      "caption": "Center darkens, becomes necrotic, and may crack with age."
+    },
+    {
+      "id": 3224,
+      "image_id": 8,
+      "caption": "Anthracnose spots start small, dark, then expand into irregular, sunken lesions on cucumber leaves."
+    },
+    {
+      "id": 3225,
+      "image_id": 8,
+      "caption": "Leaf shows brown lesions, spots, and holes from anthracnose infection."
+    },
+    {
+      "id": 3226,
+      "image_id": 11,
+      "caption": "Small dark circular spots on leaf surface, some with necrotic centers."
+    },
+    {
+      "id": 3227,
+      "image_id": 11,
+      "caption": "Lesions, holes, and dark spots on leaf indicate anthracnose spread with necrotic tissue."
+    },
+    {
+      "id": 3228,
+      "image_id": 11,
+      "caption": "Centers show dark, necrotic, blackened tissue."
+    },
+    {
+      "id": 3229,
+      "image_id": 11,
+      "caption": "Small dark circular spots with target rings; expand to irregular shapes."
+    },
+    {
+      "id": 3230,
+      "image_id": 11,
+      "caption": "Leaf shows dark, sunken lesions, holes, and brown discoloration from anthracnose infection."
+    },
+    {
+      "id": 3231,
+      "image_id": 16,
+      "caption": "Small water-soaked spots, dark lesions, and leaf yellowing as early anthracnose symptoms."
+    },
+    {
+      "id": 3232,
+      "image_id": 16,
+      "caption": "Dark, sunken lesions, irregular brown spots, and leaf holes indicate cucumber anthracnose spread."
+    },
+    {
+      "id": 3233,
+      "image_id": 16,
+      "caption": "Centers are dark, necrotic, and sunken."
+    },
+    {
+      "id": 3234,
+      "image_id": 16,
+      "caption": "Dark, circular/irregular spots expand, with yellow margins on cucumber leaves."
+    },
+    {
+      "id": 3235,
+      "image_id": 16,
+      "caption": "Image shows leaf, not fruit. Anthracnose on fruit has sunken, dark lesions."
+    },
+    {
+      "id": 3236,
+      "image_id": 17,
+      "caption": "Small dark spots with a black center and irregular yellowing on the leaf."
+    },
+    {
+      "id": 3237,
+      "image_id": 17,
+      "caption": "Dark lesions with yellow halos, cracked edges, and tissue decay spreading on leaf."
+    },
+    {
+      "id": 3238,
+      "image_id": 17,
+      "caption": "Dark, necrotic, sunken center in anthracnose spots."
+    },
+    {
+      "id": 3239,
+      "image_id": 17,
+      "caption": "Circular spots with dark centers, light brown margins, expanding and merging."
+    },
+    {
+      "id": 3240,
+      "image_id": 17,
+      "caption": "Cucumber leaf shows brown necrotic lesions and holes from anthracnose."
+    },
+    {
+      "id": 3241,
+      "image_id": 21,
+      "caption": "Small brown spots with yellow halos and lesions on the leaf."
+    },
+    {
+      "id": 3242,
+      "image_id": 21,
+      "caption": "Lesions spread as brown necrotic spots with yellow halos, causing tissue holes on the leaf."
+    },
+    {
+      "id": 3243,
+      "image_id": 21,
+      "caption": "Necrotic, brown, dry center with tissue decay."
+    },
+    {
+      "id": 3244,
+      "image_id": 21,
+      "caption": "Anthracnose spots are circular or irregular, enlarge, and merge on cucumber leaves."
+    },
+    {
+      "id": 3245,
+      "image_id": 21,
+      "caption": "Image shows leaf with brown lesions, holes; no fruit visible."
+    },
+    {
+      "id": 3246,
+      "image_id": 22,
+      "caption": "Small water-soaked spots yellow then brown; early leaf lesions."
+    },
+    {
+      "id": 3247,
+      "image_id": 22,
+      "caption": "Brown lesions, holes, and decay on leaf; anthracnose spreads from edges, killing tissue."
+    },
+    {
+      "id": 3248,
+      "image_id": 22,
+      "caption": "Center is necrotic, brown, dry, with cavitated holes."
+    },
+    {
+      "id": 3249,
+      "image_id": 22,
+      "caption": "Circular brown spots with yellow halos, expanding into larger lesions."
+    },
+    {
+      "id": 3250,
+      "image_id": 22,
+      "caption": "Leaf shows brown lesions, yellowing, and holes from anthracnose infection."
+    },
+    {
+      "id": 3251,
+      "image_id": 23,
+      "caption": "Small brown lesions with dark borders and irregular holes on the leaf."
+    },
+    {
+      "id": 3252,
+      "image_id": 23,
+      "caption": "Leaf shows irregular brown lesions, holes, and yellowing, indicating anthracnose spread."
+    },
+    {
+      "id": 3253,
+      "image_id": 23,
+      "caption": "Centers of anthracnose spots are dark, sunken, and necrotic."
+    },
+    {
+      "id": 3254,
+      "image_id": 23,
+      "caption": "Small circular spots expand into irregular, larger lesions on cucumber leaves."
+    },
+    {
+      "id": 3255,
+      "image_id": 23,
+      "caption": "Image shows leaf damage, not fruit; anthracnose on fruit features sunken, circular lesions."
+    },
+    {
+      "id": 3256,
+      "image_id": 25,
+      "caption": "Small, water-soaked spots that turn brown and develop irregular holes on the leaf."
+    },
+    {
+      "id": 3257,
+      "image_id": 25,
+      "caption": "Brown lesions, holes, and irregular dark spots on the leaf indicate anthracnose spread."
+    },
+    {
+      "id": 3258,
+      "image_id": 25,
+      "caption": "Center of spots is light brown necrotic tissue with small black dots (acervuli)."
+    },
+    {
+      "id": 3259,
+      "image_id": 25,
+      "caption": "Circular, brown spots that expand, sometimes merging on cucumber leaves."
+    },
+    {
+      "id": 3260,
+      "image_id": 25,
+      "caption": "Cucumber leaf shows anthracnose: brown necrotic spots, holes, and tissue death."
+    },
+    {
+      "id": 3261,
+      "image_id": 29,
+      "caption": "Small, dark, circular spots on leaves that enlarge, become necrotic, and develop holes."
+    },
+    {
+      "id": 3262,
+      "image_id": 29,
+      "caption": "Large, irregular brown lesions with dry tissue and holes indicate anthracnose spread on cucumber leaf."
+    },
+    {
+      "id": 3263,
+      "image_id": 29,
+      "caption": "Center turns light brown with small black pustules (acervuli)."
+    },
+    {
+      "id": 3264,
+      "image_id": 29,
+      "caption": "Small circular brown spots with dark centers expand, browning and drying leaves."
+    },
+    {
+      "id": 3265,
+      "image_id": 29,
+      "caption": "Leaf shows brown necrotic lesions, holes, and dry areas from anthracnose infection."
+    },
+    {
+      "id": 3266,
+      "image_id": 38,
+      "caption": "Small, water-soaked spots turning brown with yellow halos on leaves."
+    },
+    {
+      "id": 3267,
+      "image_id": 38,
+      "caption": "Necrotic, irregular lesions with yellow halos spreading on cucumber leaf."
+    },
+    {
+      "id": 3268,
+      "image_id": 38,
+      "caption": "Centers are brown, necrotic, and show collapsed or hollowed tissue."
+    },
+    {
+      "id": 3269,
+      "image_id": 38,
+      "caption": "Small circular dark spots with yellow edges expand into larger irregular lesions."
+    },
+    {
+      "id": 3270,
+      "image_id": 38,
+      "caption": "Leaf shows brown necrotic spots, holes, and withering from anthracnose."
+    },
+    {
+      "id": 3271,
+      "image_id": 46,
+      "caption": "Small tan irregular spots; dry, discolored areas with slight cracking on leaf."
+    },
+    {
+      "id": 3272,
+      "image_id": 46,
+      "caption": "Irregular brown lesions with cracks cover the leaf, showing anthracnose spread."
+    },
+    {
+      "id": 3273,
+      "image_id": 46,
+      "caption": "Center of spots shows dark, sunken necrotic tissue."
+    },
+    {
+      "id": 3274,
+      "image_id": 46,
+      "caption": "Circular dark brown spots expand, showing a lighter center and dark border."
+    },
+    {
+      "id": 3275,
+      "image_id": 46,
+      "caption": "Image shows leaf with brown, irregular lesions; not fruit."
+    },
+    {
+      "id": 3276,
+      "image_id": 60,
+      "caption": "Small water-soaked spots, turning brown, with white mold patches."
+    },
+    {
+      "id": 3277,
+      "image_id": 60,
+      "caption": "Lesions spread as irregular tan-brown spots, holes, and decay on the leaf surface."
+    },
+    {
+      "id": 3278,
+      "image_id": 60,
+      "caption": "Centers of anthracnose spots are grayish with necrotic tissue."
+    },
+    {
+      "id": 3279,
+      "image_id": 60,
+      "caption": "Anthracnose spots are small, circular to angular, expand, and may merge on cucumber leaves."
+    },
+    {
+      "id": 3280,
+      "image_id": 60,
+      "caption": "Cucumber leaf shows anthracnose: dark, irregular lesions with yellowing."
+    },
+    {
+      "id": 3281,
+      "image_id": 63,
+      "caption": "Small, water-soaked leaf spots with yellow margins."
+    },
+    {
+      "id": 3282,
+      "image_id": 63,
+      "caption": "Irregular sunken lesions, holes, and yellowing spread across leaf surface."
+    },
+    {
+      "id": 3283,
+      "image_id": 63,
+      "caption": "Centers show dark, sunken necrosis and hole formation."
+    },
+    {
+      "id": 3284,
+      "image_id": 63,
+      "caption": "Small circular spots enlarge, with dark borders, expanding into larger gray-centered lesions."
+    },
+    {
+      "id": 3285,
+      "image_id": 63,
+      "caption": "The image shows leaf damage (holes, discoloration); no fruit or anthracnose signs on fruit are visible."
+    },
+    {
+      "id": 3286,
+      "image_id": 69,
+      "caption": "Small, water-soaked spots on leaves, enlarging to tan with dark margins."
+    },
+    {
+      "id": 3287,
+      "image_id": 69,
+      "caption": "Cucumber leaf shows brown lesions, holes, yellowing, and necrotic areas from anthracnose."
+    },
+    {
+      "id": 3288,
+      "image_id": 69,
+      "caption": "Spots' centers turn grayish, necrotic."
+    },
+    {
+      "id": 3289,
+      "image_id": 69,
+      "caption": "Circular dark spots expand into larger irregular lesions on cucumber leaves."
+    },
+    {
+      "id": 3290,
+      "image_id": 69,
+      "caption": "Image shows leaf damage (holes, yellowing), not cucumber fruit anthracnose. No fruit visible."
+    },
+    {
+      "id": 3291,
+      "image_id": 88,
+      "caption": "Small yellow spots and lesions on the leaf surface."
+    },
+    {
+      "id": 3292,
+      "image_id": 88,
+      "caption": "Leaf shows irregular yellow-brown lesions, necrotic holes, and yellowing, indicating anthracnose spread."
+    },
+    {
+      "id": 3293,
+      "image_id": 88,
+      "caption": "Center of spots is light tan with small holes."
+    },
+    {
+      "id": 3294,
+      "image_id": 88,
+      "caption": "Circular spots expand, develop dark margins, and may form holes."
+    },
+    {
+      "id": 3295,
+      "image_id": 88,
+      "caption": "Cucumber leaf shows yellow spots, holes, and lesions indicating anthracnose infection."
+    },
+    {
+      "id": 3296,
+      "image_id": 90,
+      "caption": "Small, circular spots with gray centers and possible yellowing on the leaf."
+    },
+    {
+      "id": 3297,
+      "image_id": 90,
+      "caption": "Dark, irregular lesions with spore masses and holes spreading on leaf."
+    },
+    {
+      "id": 3298,
+      "image_id": 90,
+      "caption": "Spots' centers are gray, speckled, and necrotic."
+    },
+    {
+      "id": 3299,
+      "image_id": 90,
+      "caption": "Anthracnose spots are small, circular to angular, with dark borders, expanding into larger lesions."
+    },
+    {
+      "id": 3300,
+      "image_id": 90,
+      "caption": "Leaf shows dark, irregular anthracnose lesions with tan centers and holes."
+    },
+    {
+      "id": 3301,
+      "image_id": 112,
+      "caption": "Small yellow-brown spots with faint edges on the leaf surface."
+    },
+    {
+      "id": 3302,
+      "image_id": 112,
+      "caption": "Brown lesions with yellow halos, necrotic spots, and holes show anthracnose spread on leaf."
+    },
+    {
+      "id": 3303,
+      "image_id": 112,
+      "caption": "Centers of anthracnose spots are dark, necrotic, with white fungal growth."
+    },
+    {
+      "id": 3304,
+      "image_id": 112,
+      "caption": "Irregular spots with tan centers and dark margins; expand, coalesce as disease progresses."
+    },
+    {
+      "id": 3305,
+      "image_id": 112,
+      "caption": "Cucumber leaf shows brown angular lesions, holes, and yellowing from anthracnose."
+    },
+    {
+      "id": 3306,
+      "image_id": 118,
+      "caption": "Small water-soaked spots on leaves, turning brown with irregular edges and holes."
+    },
+    {
+      "id": 3307,
+      "image_id": 118,
+      "caption": "Lesions, holes, and discoloration spread across leaf, showing irregular brown spots and decay."
+    },
+    {
+      "id": 3308,
+      "image_id": 118,
+      "caption": "Centers of anthracnose spots are dark, necrotic, and sunken."
+    },
+    {
+      "id": 3309,
+      "image_id": 118,
+      "caption": "Small circular spots expand into irregular dark brown lesions, sometimes merging."
+    },
+    {
+      "id": 3310,
+      "image_id": 118,
+      "caption": "Cucumber leaves show anthracnose with irregular brown lesions, holes, and white fungal patches."
+    },
+    {
+      "id": 3311,
+      "image_id": 119,
+      "caption": "Small tan to yellow spots with irregular edges on leaf surface."
+    },
+    {
+      "id": 3312,
+      "image_id": 119,
+      "caption": "Spots with yellow halos, irregular holes, and brown lesions show anthracnose spread."
+    },
+    {
+      "id": 3313,
+      "image_id": 119,
+      "caption": "Center of spots is dark brown, sunken, and necrotic."
+    },
+    {
+      "id": 3314,
+      "image_id": 119,
+      "caption": "Small, circular to irregular dark spots with yellow margins; expand and coalesce on leaves."
+    },
+    {
+      "id": 3315,
+      "image_id": 119,
+      "caption": "Image shows leaf with holes and spots; not fruit. Anthracnose on fruit has sunken lesions."
+    },
+    {
+      "id": 3316,
+      "image_id": 123,
+      "caption": "Small, circular tan spots on the leaf surface."
+    },
+    {
+      "id": 3317,
+      "image_id": 123,
+      "caption": "Irregular brown lesions and holes on leaf indicate anthracnose spread."
+    },
+    {
+      "id": 3318,
+      "image_id": 123,
+      "caption": "Centers of anthracnose spots are light tan."
+    },
+    {
+      "id": 3319,
+      "image_id": 123,
+      "caption": "Circular/oval dark spots expand into larger lesions with yellow margins."
+    },
+    {
+      "id": 3320,
+      "image_id": 123,
+      "caption": "No fruit visible; image shows leaf with holes (insect damage), not anthracnose."
+    },
+    {
+      "id": 3321,
+      "image_id": 124,
+      "caption": "Small, dark, circular spots on leaf surface, some with slight yellowing around edges."
+    },
+    {
+      "id": 3322,
+      "image_id": 124,
+      "caption": "Dark lesions, holes, and white mycelium on leaf indicate anthracnose spread."
+    },
+    {
+      "id": 3323,
+      "image_id": 124,
+      "caption": "Center of anthracnose spots is dark, necrotic, and sunken."
+    },
+    {
+      "id": 3324,
+      "image_id": 124,
+      "caption": "Circular/angular spots with dark centers, expanding with light margins."
+    },
+    {
+      "id": 3325,
+      "image_id": 124,
+      "caption": "Leaf shows dark lesions with black pycnidia, indicating anthracnose infection."
+    },
+    {
+      "id": 3326,
+      "image_id": 128,
+      "caption": "Small, water-soaked spots on leaves, later turning brown with yellow halos."
+    },
+    {
+      "id": 3327,
+      "image_id": 128,
+      "caption": "Circular brown lesions with irregular edges, necrotic centers, and holes on leaves."
+    },
+    {
+      "id": 3328,
+      "image_id": 128,
+      "caption": "Spots' centers are dark, necrotic, sunken, and have small holes."
+    },
+    {
+      "id": 3329,
+      "image_id": 128,
+      "caption": "Anthracnose spots are round to angular, dark with tan centers, expanding and merging."
+    },
+    {
+      "id": 3330,
+      "image_id": 128,
+      "caption": "Image shows leaf damage, not fruit; no anthracnose on fruit visible."
+    },
+    {
+      "id": 3331,
+      "image_id": 131,
+      "caption": "Small, light-colored spots with slight yellowing on the leaf."
+    },
+    {
+      "id": 3332,
+      "image_id": 131,
+      "caption": "Small tan lesions with dark borders spread across leaf, some merging."
+    },
+    {
+      "id": 3333,
+      "image_id": 131,
+      "caption": "Center of spots is light tan, sunken, and necrotic."
+    },
+    {
+      "id": 3334,
+      "image_id": 131,
+      "caption": "Small circular brown spots enlarge, forming target-like lesions with concentric rings."
+    },
+    {
+      "id": 3335,
+      "image_id": 131,
+      "caption": "No fruit in image; leaf symptoms not relevant to fruit anthracnose."
+    },
+    {
+      "id": 3336,
+      "image_id": 135,
+      "caption": "Small yellow spots on leaves, early sign of cucumber anthracnose."
+    },
+    {
+      "id": 3337,
+      "image_id": 135,
+      "caption": "Yellow spots, sunken lesions, and holes on leaf indicate anthracnose spread."
+    },
+    {
+      "id": 3338,
+      "image_id": 135,
+      "caption": "Center of spots is light brown, dry, and has small holes."
+    },
+    {
+      "id": 3339,
+      "image_id": 135,
+      "caption": "Small, circular or angular dark spots expand, often with yellow halos."
+    },
+    {
+      "id": 3340,
+      "image_id": 135,
+      "caption": "Leaf shows yellow spots, small holes, and necrotic lesions from anthracnose."
+    },
+    {
+      "id": 3341,
+      "image_id": 149,
+      "caption": "Small, pale spots with yellowing; lesions on leaf surface."
+    },
+    {
+      "id": 3342,
+      "image_id": 149,
+      "caption": "Circular lesions with tan centers, yellow halos, and irregular edges scattered on the leaf."
+    },
+    {
+      "id": 3343,
+      "image_id": 149,
+      "caption": "Centers of anthracnose spots are grayish, lighter, and necrotic."
+    },
+    {
+      "id": 3344,
+      "image_id": 149,
+      "caption": "Circular tan spots with dark borders; expand to irregular, often with small black dots."
+    },
+    {
+      "id": 3345,
+      "image_id": 149,
+      "caption": "Cucumber leaf shows anthracnose: small dark spots, yellow halos, irregular holes."
+    },
+    {
+      "id": 3346,
+      "image_id": 155,
+      "caption": "Small water-soaked spots with light brown centers, progressing to lesions and holes."
+    },
+    {
+      "id": 3347,
+      "image_id": 155,
+      "caption": "Leaf shows irregular holes, yellowing, and dark lesions from cucumber anthracnose spread."
+    },
+    {
+      "id": 3348,
+      "image_id": 155,
+      "caption": "Centers are lighter tan with necrotic tissue."
+    },
+    {
+      "id": 3349,
+      "image_id": 155,
+      "caption": "Small dark circular spots expand into larger lesions with concentric rings."
+    },
+    {
+      "id": 3350,
+      "image_id": 155,
+      "caption": "Image shows leaf damage; no cucumber fruit anthracnose infection present."
+    },
+    {
+      "id": 3351,
+      "image_id": 156,
+      "caption": "Small, water-soaked lesions on leaves; initial symptom of cucumber anthracnose."
+    },
+    {
+      "id": 3352,
+      "image_id": 156,
+      "caption": "Dark, sunken lesions, irregular holes, and yellowing on leaf show anthracnose spread."
+    },
+    {
+      "id": 3353,
+      "image_id": 156,
+      "caption": "Centers show tan, necrotic tissue with irregular, sunken areas."
+    },
+    {
+      "id": 3354,
+      "image_id": 156,
+      "caption": "Small circular spots expand into irregular brown lesions with yellow halos."
+    },
+    {
+      "id": 3355,
+      "image_id": 156,
+      "caption": "Image does not show fruit; anthracnose on fruit not visible."
+    },
+    {
+      "id": 3356,
+      "image_id": 158,
+      "caption": "Small, circular, water-soaked spots developing into lesions with light centers and dark borders."
+    },
+    {
+      "id": 3357,
+      "image_id": 158,
+      "caption": "Multiple small brown spots with yellow halos on leaves, indicating anthracnose spread."
+    },
+    {
+      "id": 3358,
+      "image_id": 158,
+      "caption": "Anthracnose spot centers show grayish, dry, necrotic tissue with slight depression."
+    },
+    {
+      "id": 3359,
+      "image_id": 158,
+      "caption": "Anthracnose spots are circular or irregular, expanding with dark centers and yellow halos."
+    },
+    {
+      "id": 3360,
+      "image_id": 158,
+      "caption": "Cucumber leaves show yellow-brown lesions, sunken spots, and white patches from anthracnose."
+    },
+    {
+      "id": 3361,
+      "image_id": 160,
+      "caption": "Initial symptom: sudden daytime wilting, partial night recovery, then irreversible decline."
+    },
+    {
+      "id": 3362,
+      "image_id": 160,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, then rapidly wilt and turn brown."
+    },
+    {
+      "id": 3363,
+      "image_id": 160,
+      "caption": "Stem cankers are dark, sunken lesions. Sticky bacterial ooze is clear, glistening fluid from infected stems."
+    },
+    {
+      "id": 3364,
+      "image_id": 160,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions as Bacterial Wilt spreads on cucumber leaves."
+    },
+    {
+      "id": 3365,
+      "image_id": 160,
+      "caption": "Bacterial Wilt causes cucumber plants to wilt fully, stem base browns, leaves die rapidly. Complete death occurs."
+    },
+    {
+      "id": 3366,
+      "image_id": 170,
+      "caption": "Daytime wilting, nighttime recovery; leaves dry and brown in later stages."
+    },
+    {
+      "id": 3367,
+      "image_id": 170,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing inward, with wilting and browning."
+    },
+    {
+      "id": 3368,
+      "image_id": 170,
+      "caption": "Stem cankers appear as sunken, dark lesions. Sticky bacterial ooze exudes from the stem, characteristic of Bacterial Wilt."
+    },
+    {
+      "id": 3369,
+      "image_id": 170,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions as Bacterial Wilt spreads on cucumber leaves."
+    },
+    {
+      "id": 3370,
+      "image_id": 170,
+      "caption": "Bacterial Wilt causes complete wilting, browning at stem base, and death of cucumber plant as xylem clogs, leading to desiccation."
+    },
+    {
+      "id": 3371,
+      "image_id": 172,
+      "caption": "Daytime wilting with nighttime recovery is the initial symptom before permanent damage."
+    },
+    {
+      "id": 3372,
+      "image_id": 172,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, indicating vascular infection."
+    },
+    {
+      "id": 3373,
+      "image_id": 172,
+      "caption": "Sunken, dark stem cankers with sticky bacterial ooze oozing from cracks, indicating Bacterial Wilt."
+    },
+    {
+      "id": 3374,
+      "image_id": 172,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions from Bacterial Wilt."
+    },
+    {
+      "id": 3375,
+      "image_id": 172,
+      "caption": "Complete wilting, death, and browning at stem base of cucumber plant from Bacterial Wilt."
+    },
+    {
+      "id": 3376,
+      "image_id": 175,
+      "caption": "Cucumber plants show initial Bacterial Wilt symptoms as daytime wilting that recovers at night."
+    },
+    {
+      "id": 3377,
+      "image_id": 175,
+      "caption": "Bacterial Wilt causes leaf margins to yellow, then brown and necrose, progressing inward."
+    },
+    {
+      "id": 3378,
+      "image_id": 175,
+      "caption": "Stem cankers are dark, sunken lesions. Sticky bacterial ooze is a glistening exudate from infected stems."
+    },
+    {
+      "id": 3379,
+      "image_id": 175,
+      "caption": "Yellow spots turn brown, tissue necroses, creating shot-hole lesions as Bacterial Wilt spreads on cucumber leaves."
+    },
+    {
+      "id": 3380,
+      "image_id": 175,
+      "caption": "Cucumber plant rapidly wilts, yellowing leaves, stem base browns; dies quickly from Bacterial Wilt."
+    },
+    {
+      "id": 3381,
+      "image_id": 177,
+      "caption": "Plants wilt during the day, recover at night; initial leaf drooping is evident in the image."
+    },
+    {
+      "id": 3382,
+      "image_id": 177,
+      "caption": "Bacterial Wilt causes leaf margins to yellow first, progressing inward, leading to wilting and death."
+    },
+    {
+      "id": 3383,
+      "image_id": 177,
+      "caption": "Stem has dark cankers with sticky, clear bacterial ooze, characteristic of cucumber Bacterial Wilt."
+    },
+    {
+      "id": 3384,
+      "image_id": 177,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as tissue dies."
+    },
+    {
+      "id": 3385,
+      "image_id": 177,
+      "caption": "Bacterial Wilt causes complete wilting, stem base browning, and plant death in cucumbers."
+    },
+    {
+      "id": 3386,
+      "image_id": 182,
+      "caption": "Daytime wilting with nighttime recovery indicates initial Bacterial Wilt symptoms in cucumbers."
+    },
+    {
+      "id": 3387,
+      "image_id": 182,
+      "caption": "Leaf margins yellow first, progressing inward, causing wilting and death on cucumber plants."
+    },
+    {
+      "id": 3388,
+      "image_id": 182,
+      "caption": "Stem cankers: brown, sunken lesions. Sticky bacterial ooze: clear, viscous exudate from stem cracks."
+    },
+    {
+      "id": 3389,
+      "image_id": 182,
+      "caption": "Yellow spots on cucumber leaves turn brown, creating a shot-hole appearance as tissue disintegrates."
+    },
+    {
+      "id": 3390,
+      "image_id": 182,
+      "caption": "Bacterial Wilt causes rapid wilting, death; stem base browns, leaves dry, withered, discolored."
+    },
+    {
+      "id": 3391,
+      "image_id": 193,
+      "caption": "Daytime wilting, night recovery; leaves droop but may rebound overnight."
+    },
+    {
+      "id": 3392,
+      "image_id": 193,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing to wilting and browning."
+    },
+    {
+      "id": 3393,
+      "image_id": 193,
+      "caption": "Dark, sunken stem cankers; sticky bacterial ooze exudes from affected stems in Bacterial Wilt."
+    },
+    {
+      "id": 3394,
+      "image_id": 193,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as Bacterial Wilt spreads."
+    },
+    {
+      "id": 3395,
+      "image_id": 193,
+      "caption": "Bacterial Wilt causes complete wilting, death, and stem base browning in cucumber plants."
+    },
+    {
+      "id": 3396,
+      "image_id": 195,
+      "caption": "Sudden daytime wilting with temporary night recovery; leaves droop then revitalize overnight."
+    },
+    {
+      "id": 3397,
+      "image_id": 195,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, then brown and wilt inward."
+    },
+    {
+      "id": 3398,
+      "image_id": 195,
+      "caption": "Stem cankers: dark, sunken lesions. Sticky bacterial ooze exudes from infected stems."
+    },
+    {
+      "id": 3399,
+      "image_id": 195,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3400,
+      "image_id": 195,
+      "caption": "Bacterial Wilt causes rapid wilting, yellowing, stem base browning, and complete plant death."
+    },
+    {
+      "id": 3401,
+      "image_id": 197,
+      "caption": "Initial: leaves wilt during day, recover at night; then browning and drying."
+    },
+    {
+      "id": 3402,
+      "image_id": 197,
+      "caption": "Bacterial Wilt on cucumbers yellows leaf margins, progressing to browning and necrosis, causing wilting."
+    },
+    {
+      "id": 3403,
+      "image_id": 197,
+      "caption": "Stem cankers are dark, sunken lesions; sticky bacterial ooze is milky, viscous fluid from infected stems."
+    },
+    {
+      "id": 3404,
+      "image_id": 197,
+      "caption": "Yellow spots turn brown, progressing to shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3405,
+      "image_id": 197,
+      "caption": "Cucumber plants rapidly wilt and die from Bacterial Wilt, with stem base browning, tissues decaying, and leaves drying completely."
+    },
+    {
+      "id": 3406,
+      "image_id": 199,
+      "caption": "Sudden daytime wilting; leaves droop in daylight, recover at night, regaining turgor overnight."
+    },
+    {
+      "id": 3407,
+      "image_id": 199,
+      "caption": "Bacterial Wilt causes yellowing leaf margins, progressing to wilting and necrosis on cucumber plants."
+    },
+    {
+      "id": 3408,
+      "image_id": 199,
+      "caption": "Stem cankers are sunken, discolored lesions; sticky bacterial ooze exudes as a cloudy, viscous substance from infected stems."
+    },
+    {
+      "id": 3409,
+      "image_id": 199,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as tissue dies."
+    },
+    {
+      "id": 3410,
+      "image_id": 199,
+      "caption": "Bacterial Wilt causes complete wilting, stem base browning, and plant death as tissues rot."
+    },
+    {
+      "id": 3411,
+      "image_id": 202,
+      "caption": "Initial symptoms: plants wilt during the day, recover at night; leaves show limpness and discoloration."
+    },
+    {
+      "id": 3412,
+      "image_id": 202,
+      "caption": "Cucumber leaves show marginal yellowing from Bacterial Wilt, progressing inward with wilting."
+    },
+    {
+      "id": 3413,
+      "image_id": 202,
+      "caption": "Stem cankers: dark, sunken lesions; sticky, milky bacterial ooze exudes from infected stems."
+    },
+    {
+      "id": 3414,
+      "image_id": 202,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions from Bacterial Wilt."
+    },
+    {
+      "id": 3415,
+      "image_id": 202,
+      "caption": "Cucumber plant completely wilts and dies; stem base browns, leaves yellow-brown and withered."
+    },
+    {
+      "id": 3416,
+      "image_id": 203,
+      "caption": "Initial: daytime wilting, nighttime recovery before permanent wilting."
+    },
+    {
+      "id": 3417,
+      "image_id": 203,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, turn brown, and necrotic, with rapid wilting."
+    },
+    {
+      "id": 3418,
+      "image_id": 203,
+      "caption": "Stem cankers: brown, sunken lesions. Sticky bacterial ooze exudes from cracks, indicating Bacterial Wilt."
+    },
+    {
+      "id": 3419,
+      "image_id": 203,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions as Bacterial Wilt spreads on cucumber leaves."
+    },
+    {
+      "id": 3420,
+      "image_id": 203,
+      "caption": "Complete wilting: leaves brown/dry, stem base browning; death from Bacterial Wilt's vascular blockage."
+    },
+    {
+      "id": 3421,
+      "image_id": 213,
+      "caption": "Initial symptom: daytime wilting, night recovery. Leaves droop during day, regain turgor at night."
+    },
+    {
+      "id": 3422,
+      "image_id": 213,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, wilt, and brown, spreading inward."
+    },
+    {
+      "id": 3423,
+      "image_id": 213,
+      "caption": "Stem cankers show necrotic lesions with sticky, translucent bacterial ooze exuding from infected areas."
+    },
+    {
+      "id": 3424,
+      "image_id": 213,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as Bacterial Wilt spreads."
+    },
+    {
+      "id": 3425,
+      "image_id": 213,
+      "caption": "Bacterial wilt causes rapid wilting, plant death, and brown discoloration at stem base."
+    },
+    {
+      "id": 3426,
+      "image_id": 215,
+      "caption": "Plants wilt during the day and recover at night, initial Bacterial Wilt symptom."
+    },
+    {
+      "id": 3427,
+      "image_id": 215,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing inward, with wilting and necrosis."
+    },
+    {
+      "id": 3428,
+      "image_id": 215,
+      "caption": "Dark stem cankers; sticky, milky bacterial ooze exudes from infected stems."
+    },
+    {
+      "id": 3429,
+      "image_id": 215,
+      "caption": "Bacterial Wilt spreads: yellow spots turn brown, forming shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3430,
+      "image_id": 215,
+      "caption": "Cucumber plant rapidly wilts, dies; stem base browns from Bacterial Wilt infection."
+    },
+    {
+      "id": 3431,
+      "image_id": 231,
+      "caption": "Plants wilt during the day but recover at night, showing droopy leaves with yellowing."
+    },
+    {
+      "id": 3432,
+      "image_id": 231,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing to wilting and browning."
+    },
+    {
+      "id": 3433,
+      "image_id": 231,
+      "caption": "Stem cankers: dark, sunken lesions. Sticky bacterial ooze exudes from cankers, indicating Bacterial Wilt."
+    },
+    {
+      "id": 3434,
+      "image_id": 231,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as Bacterial Wilt spreads."
+    },
+    {
+      "id": 3435,
+      "image_id": 231,
+      "caption": "Cucumber plant fully wilts, dies; stem base browns from Bacterial Wilt."
+    },
+    {
+      "id": 3436,
+      "image_id": 237,
+      "caption": "Daytime wilting, nighttime recovery; leaves droop, stems weaken."
+    },
+    {
+      "id": 3437,
+      "image_id": 237,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing to browning and wilting."
+    },
+    {
+      "id": 3438,
+      "image_id": 237,
+      "caption": "Stem cankers: sunken, discolored lesions. Sticky bacterial ooze: milky, slimy exudate from infected stem tissue."
+    },
+    {
+      "id": 3439,
+      "image_id": 237,
+      "caption": "Bacterial Wilt causes yellow spots on cucumber leaves to turn brown, forming shot-hole lesions as tissue dries and dies."
+    },
+    {
+      "id": 3440,
+      "image_id": 237,
+      "caption": "Cucumber plant wilts rapidly, dies; stem base browns and decays."
+    },
+    {
+      "id": 3441,
+      "image_id": 243,
+      "caption": "Initial: daytime wilting with night recovery; leaves dry, brown, and curled as in image."
+    },
+    {
+      "id": 3442,
+      "image_id": 243,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, then wilt and brown."
+    },
+    {
+      "id": 3443,
+      "image_id": 243,
+      "caption": "Stem cankers are sunken, discolored lesions; sticky bacterial ooze is a white, glistening exudate."
+    },
+    {
+      "id": 3444,
+      "image_id": 243,
+      "caption": "Bacterial Wilt spreads as yellow spots turn brown, creating shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3445,
+      "image_id": 243,
+      "caption": "Rapid wilting, leaves brown/dead; stem base browning, causing complete cucumber plant death."
+    },
+    {
+      "id": 3446,
+      "image_id": 245,
+      "caption": "Plants wilt suddenly during the day, recovering at night; key initial symptom of cucumber Bacterial Wilt."
+    },
+    {
+      "id": 3447,
+      "image_id": 245,
+      "caption": "Leaf margins yellow first, progressing inward as Bacterial Wilt affects cucumber plants."
+    },
+    {
+      "id": 3448,
+      "image_id": 245,
+      "caption": "Dark stem cankers with glistening, sticky bacterial ooze exuding from infected cucumber stems."
+    },
+    {
+      "id": 3449,
+      "image_id": 245,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as tissue dies."
+    },
+    {
+      "id": 3450,
+      "image_id": 245,
+      "caption": "Bacterial Wilt causes complete wilting, death, and stem base browning in cucumber plants."
+    },
+    {
+      "id": 3451,
+      "image_id": 250,
+      "caption": "Plants wilt during the day, recover at night; sudden drooping without permanent damage initially."
+    },
+    {
+      "id": 3452,
+      "image_id": 250,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, starting at edges and progressing inward, with wilting."
+    },
+    {
+      "id": 3453,
+      "image_id": 250,
+      "caption": "Stem shows sunken cankers with sticky, milky bacterial ooze oozing from lesions."
+    },
+    {
+      "id": 3454,
+      "image_id": 250,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as tissue dries and falls."
+    },
+    {
+      "id": 3455,
+      "image_id": 250,
+      "caption": "Cucumber plant rapidly wilts, stems brown at base, leaves die, leading to complete death from Bacterial Wilt."
+    },
+    {
+      "id": 3456,
+      "image_id": 257,
+      "caption": "Daytime wilting with nighttime recovery is the initial Bacterial Wilt symptom."
+    },
+    {
+      "id": 3457,
+      "image_id": 257,
+      "caption": "Leaf margins yellow, progressing inward, with rapid wilting from Bacterial Wilt on cucumbers."
+    },
+    {
+      "id": 3458,
+      "image_id": 257,
+      "caption": "Dark, sunken stem cankers with sticky, milky bacterial ooze from infected stems."
+    },
+    {
+      "id": 3459,
+      "image_id": 257,
+      "caption": "Yellow spots turn brown, tissue dies, forming shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3460,
+      "image_id": 257,
+      "caption": "Bacterial Wilt causes rapid wilting, death; stem base browns and softens."
+    },
+    {
+      "id": 3461,
+      "image_id": 260,
+      "caption": "Daytime wilting with nighttime recovery is the initial symptom of cucumber Bacterial Wilt in the image."
+    },
+    {
+      "id": 3462,
+      "image_id": 260,
+      "caption": "Bacterial Wilt causes leaf margins to yellow, brown, and wilt inward on cucumber plants."
+    },
+    {
+      "id": 3463,
+      "image_id": 260,
+      "caption": "Stem cankers are dark, sunken lesions. Sticky bacterial ooze is glistening, wet substance exuding from the stem."
+    },
+    {
+      "id": 3464,
+      "image_id": 260,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole as tissue decays."
+    },
+    {
+      "id": 3465,
+      "image_id": 260,
+      "caption": "Cucumber plant fully wilts, dies; stem base browns, leaves yellow-brown and dry."
+    },
+    {
+      "id": 3466,
+      "image_id": 268,
+      "caption": "Sudden daytime wilting with nighttime recovery is the initial symptom of Bacterial Wilt."
+    },
+    {
+      "id": 3467,
+      "image_id": 268,
+      "caption": "Bacterial Wilt yellows cucumber leaf margins, progressing inward with browning and wilting."
+    },
+    {
+      "id": 3468,
+      "image_id": 268,
+      "caption": "Stem cankers show dark lesions; cutting reveals sticky, milky bacterial ooze."
+    },
+    {
+      "id": 3469,
+      "image_id": 268,
+      "caption": "Bacterial Wilt starts as yellow spots, turning brown, causing shot-hole lesions as it spreads."
+    },
+    {
+      "id": 3470,
+      "image_id": 268,
+      "caption": "Bacterial Wilt causes cucumber plants to wilt rapidly, leaves turn brown and dry, stem base browns, leading to plant death."
+    },
+    {
+      "id": 3471,
+      "image_id": 270,
+      "caption": "Sudden daytime wilting, temporary nighttime recovery before permanent wilting."
+    },
+    {
+      "id": 3472,
+      "image_id": 270,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing to rapid wilting and plant death."
+    },
+    {
+      "id": 3473,
+      "image_id": 270,
+      "caption": "Stem shows dark, sunken cankers with sticky white bacterial ooze oozing from lesions."
+    },
+    {
+      "id": 3474,
+      "image_id": 270,
+      "caption": "Bacterial Wilt causes yellow spots to turn brown, then tissue dies, forming shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3475,
+      "image_id": 270,
+      "caption": "Bacterial Wilt causes rapid wilting, stem base browning, and complete plant death within days."
+    },
+    {
+      "id": 3476,
+      "image_id": 280,
+      "caption": "Daytime wilting with nighttime recovery is the initial symptom of cucumber Bacterial Wilt."
+    },
+    {
+      "id": 3477,
+      "image_id": 280,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, then wilt and die rapidly with necrotic edges."
+    },
+    {
+      "id": 3478,
+      "image_id": 280,
+      "caption": "Stem cankers show as dark, sunken lesions; sticky bacterial ooze exudes from infected areas, confirming Bacterial Wilt."
+    },
+    {
+      "id": 3479,
+      "image_id": 280,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions as Bacterial Wilt spreads on cucumber leaves."
+    },
+    {
+      "id": 3480,
+      "image_id": 280,
+      "caption": "Cucumber plant rapidly wilts, leaves brown and die; stem base browning causes total death."
+    },
+    {
+      "id": 3481,
+      "image_id": 287,
+      "caption": "Plants wilt during the day but recover at night in early Bacterial Wilt stages."
+    },
+    {
+      "id": 3482,
+      "image_id": 287,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, then brown and wilt rapidly."
+    },
+    {
+      "id": 3483,
+      "image_id": 287,
+      "caption": "Brown sunken stem cankers with sticky white bacterial ooze exuding from infected stems."
+    },
+    {
+      "id": 3484,
+      "image_id": 287,
+      "caption": "Bacterial Wilt causes yellow spots to brown, forming shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3485,
+      "image_id": 287,
+      "caption": "Complete wilting, leaf death, and stem base browning from Bacterial Wilt."
+    },
+    {
+      "id": 3486,
+      "image_id": 296,
+      "caption": "Plants wilt during the day, recover at night; leaves droop daily, then revive overnight."
+    },
+    {
+      "id": 3487,
+      "image_id": 296,
+      "caption": "Bacterial Wilt on cucumber plants causes leaf margins to yellow, progressing to browning and wilting as the disease spreads."
+    },
+    {
+      "id": 3488,
+      "image_id": 296,
+      "caption": "Dark, sunken stem cankers with sticky bacterial ooze indicate cucumber Bacterial Wilt."
+    },
+    {
+      "id": 3489,
+      "image_id": 296,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions on infected cucumber leaves."
+    },
+    {
+      "id": 3490,
+      "image_id": 296,
+      "caption": "Cucumber plant completely wilts, dies; stem base browns, tissue rots due to Bacterial Wilt."
+    },
+    {
+      "id": 3491,
+      "image_id": 299,
+      "caption": "Daytime wilting, night recovery: leaves droop during day, regain turgor overnight."
+    },
+    {
+      "id": 3492,
+      "image_id": 299,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, then wilt, progressing inward."
+    },
+    {
+      "id": 3493,
+      "image_id": 299,
+      "caption": "Stem cankers show as sunken, dead lesions; sticky, milky bacterial ooze exudes from infected stems."
+    },
+    {
+      "id": 3494,
+      "image_id": 299,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions as Bacterial Wilt spreads."
+    },
+    {
+      "id": 3495,
+      "image_id": 299,
+      "caption": "Cucumber plant rapidly wilts, stem base browns, and dies completely from Bacterial Wilt."
+    },
+    {
+      "id": 3496,
+      "image_id": 300,
+      "caption": "Leaves wilt during the day, recovering at night, indicating early Bacterial Wilt symptoms."
+    },
+    {
+      "id": 3497,
+      "image_id": 300,
+      "caption": "Leaf margins yellow at edges, progressing inward in Bacterial Wilt-affected cucumber plants."
+    },
+    {
+      "id": 3498,
+      "image_id": 300,
+      "caption": "Sunken, discolored stem cankers with sticky bacterial ooze exuding from infected stems."
+    },
+    {
+      "id": 3499,
+      "image_id": 300,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions on cucumber leaves as Bacterial Wilt spreads."
+    },
+    {
+      "id": 3500,
+      "image_id": 300,
+      "caption": "Bacterial Wilt causes rapid wilting, stem base browning, and complete death of cucumber plant, leading to total collapse."
+    },
+    {
+      "id": 3501,
+      "image_id": 303,
+      "caption": "Initial symptom: leaves wilt during the day, then recover at night."
+    },
+    {
+      "id": 3502,
+      "image_id": 303,
+      "caption": "Bacterial Wilt causes yellowing of cucumber leaf margins, progressing to necrosis and wilting."
+    },
+    {
+      "id": 3503,
+      "image_id": 303,
+      "caption": "Stem cankers are dark, sunken lesions; sticky, milky bacterial ooze exudes from cut stems."
+    },
+    {
+      "id": 3504,
+      "image_id": 303,
+      "caption": "Yellow spots on cucumber leaves turn brown, forming shot-hole lesions from Bacterial Wilt."
+    },
+    {
+      "id": 3505,
+      "image_id": 303,
+      "caption": "Complete wilting and death of cucumber plant with stem base browning from Bacterial Wilt."
+    },
+    {
+      "id": 3506,
+      "image_id": 306,
+      "caption": "Cucumber plants exhibit initial Bacterial Wilt as wilting during the day with recovery at night before permanent wilting sets in."
+    },
+    {
+      "id": 3507,
+      "image_id": 306,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progress inward, with wilting and browning of leaves."
+    },
+    {
+      "id": 3508,
+      "image_id": 306,
+      "caption": "Stem cankers are dark, sunken lesions; sticky bacterial ooze is white, slimy, oozes from stems, causing wilting."
+    },
+    {
+      "id": 3509,
+      "image_id": 306,
+      "caption": "Bacterial Wilt causes yellow spots to turn brown, forming shot-hole lesions as tissue dies and falls out."
+    },
+    {
+      "id": 3510,
+      "image_id": 306,
+      "caption": "Bacterial Wilt causes complete wilting, death, and stem base browning in cucumber plants."
+    },
+    {
+      "id": 3511,
+      "image_id": 318,
+      "caption": "Daytime wilting, night recovery; leaves limp and discolored."
+    },
+    {
+      "id": 3512,
+      "image_id": 318,
+      "caption": "Bacterial Wilt causes cucumber leaf margins to yellow, progressing inward with wilting."
+    },
+    {
+      "id": 3513,
+      "image_id": 318,
+      "caption": "Dark, sunken stem cankers; sticky, white bacterial ooze exudes from affected stem areas."
+    },
+    {
+      "id": 3514,
+      "image_id": 318,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions on cucumber leaves."
+    },
+    {
+      "id": 3515,
+      "image_id": 318,
+      "caption": "Bacterial Wilt causes complete wilting, leaf death, and stem base browning in cucumber plants."
+    },
+    {
+      "id": 3516,
+      "image_id": 319,
+      "caption": "Plants wilt during the day, recover at night; this is the initial symptom of Bacterial Wilt."
+    },
+    {
+      "id": 3517,
+      "image_id": 319,
+      "caption": "Bacterial Wilt causes leaf margins to yellow, then brown, with rapid wilting in cucumber plants."
+    },
+    {
+      "id": 3518,
+      "image_id": 319,
+      "caption": "Stem cankers show dark, sunken lesions; sticky bacterial ooze exudes from affected areas."
+    },
+    {
+      "id": 3519,
+      "image_id": 319,
+      "caption": "Yellow spots turn brown, forming shot-hole lesions on cucumber leaves as Bacterial Wilt spreads."
+    },
+    {
+      "id": 3520,
+      "image_id": 319,
+      "caption": "Cucumber plant wilts rapidly, stem base browns, then dries and dies completely from Bacterial Wilt."
+    },
+    {
+      "id": 3521,
+      "image_id": 324,
+      "caption": "Pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3522,
+      "image_id": 324,
+      "caption": "Angular yellow-brown lesions bounded by leaf veins."
+    },
+    {
+      "id": 3523,
+      "image_id": 324,
+      "caption": "Dark purplish-grey fuzzy growth on the underside of infected cucumber leaves."
+    },
+    {
+      "id": 3524,
+      "image_id": 324,
+      "caption": "Spots merge into larger lesions, with yellowing spreading from leaf margins inward."
+    },
+    {
+      "id": 3525,
+      "image_id": 324,
+      "caption": "Cucumber leaves yellow, brown, wilt, and die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3526,
+      "image_id": 330,
+      "caption": "Pale green to yellow spots on upper leaf surface; initial Downy Mildew symptom."
+    },
+    {
+      "id": 3527,
+      "image_id": 330,
+      "caption": "Angular yellow-brown lesions on upper leaf surface, bordered by veins."
+    },
+    {
+      "id": 3528,
+      "image_id": 330,
+      "caption": "Dark purplish-grey fuzzy growth on the underside of cucumber leaves."
+    },
+    {
+      "id": 3529,
+      "image_id": 330,
+      "caption": "Merged leaf spots spread, causing yellowing at margins; lesions expand into larger discolored areas as infection progresses."
+    },
+    {
+      "id": 3530,
+      "image_id": 330,
+      "caption": "Cucumber leaves wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3531,
+      "image_id": 331,
+      "caption": "Initial symptoms: pale green to yellow irregular spots on the upper leaf surface."
+    },
+    {
+      "id": 3532,
+      "image_id": 331,
+      "caption": "Angular yellow-brown lesions bounded by leaf veins, sharp-edged."
+    },
+    {
+      "id": 3533,
+      "image_id": 331,
+      "caption": "Dark purplish-gray fuzz on cucumber leaf undersides, a Downy Mildew symptom."
+    },
+    {
+      "id": 3534,
+      "image_id": 331,
+      "caption": "Downy Mildew: yellow spots merge, leaf margins yellow, lesions expand irregularly on cucumber leaves."
+    },
+    {
+      "id": 3535,
+      "image_id": 331,
+      "caption": "Cucumber leaves completely wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3536,
+      "image_id": 337,
+      "caption": "Initial symptoms: pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3537,
+      "image_id": 337,
+      "caption": "Angular yellow-brown lesions bounded by leaf veins; white mold on underside."
+    },
+    {
+      "id": 3538,
+      "image_id": 337,
+      "caption": "Dark purplish grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3539,
+      "image_id": 337,
+      "caption": "Downy Mildew spots merge on cucumber leaves, causing yellowing at the leaf margins as infection spreads."
+    },
+    {
+      "id": 3540,
+      "image_id": 337,
+      "caption": "Cucumber leaves yellow, brown, wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3541,
+      "image_id": 338,
+      "caption": "Pale green to yellow spots on upper leaf surface, early Downy Mildew symptoms."
+    },
+    {
+      "id": 3542,
+      "image_id": 338,
+      "caption": "Angular yellow-brown lesions with water-soaked edges follow leaf veins."
+    },
+    {
+      "id": 3543,
+      "image_id": 338,
+      "caption": "Dark purplish-grey, fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3544,
+      "image_id": 338,
+      "caption": "Downy Mildew causes leaf spots to merge into yellow patches; leaf margins yellow, spreading inward."
+    },
+    {
+      "id": 3545,
+      "image_id": 338,
+      "caption": "Leaves completely wilt and die; stem base browns, causing plant death."
+    },
+    {
+      "id": 3546,
+      "image_id": 341,
+      "caption": "Initial symptoms: pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3547,
+      "image_id": 341,
+      "caption": "Angular yellow-brown lesions, limited by leaf veins, with gray spores on undersides."
+    },
+    {
+      "id": 3548,
+      "image_id": 341,
+      "caption": "Dark purplish grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3549,
+      "image_id": 341,
+      "caption": "Downy Mildew causes leaf spots to merge, with yellowing at margins as lesions expand and spread."
+    },
+    {
+      "id": 3550,
+      "image_id": 341,
+      "caption": "Leaves yellow, wilt, die; stem base browns, causing complete plant collapse."
+    },
+    {
+      "id": 3551,
+      "image_id": 353,
+      "caption": "Initial symptoms show pale green to yellow spots on the upper leaf surface."
+    },
+    {
+      "id": 3552,
+      "image_id": 353,
+      "caption": "Angular yellow-brown lesions bounded by veins; underside shows white downy growth."
+    },
+    {
+      "id": 3553,
+      "image_id": 353,
+      "caption": "Dark purplish-grey fuzzy patches on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3554,
+      "image_id": 353,
+      "caption": "Merging leaf spots and yellowing margins indicate Downy Mildew spread on cucumber leaves."
+    },
+    {
+      "id": 3555,
+      "image_id": 353,
+      "caption": "Cucumber leaves yellow, brown, wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3556,
+      "image_id": 355,
+      "caption": "Initial symptoms: pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3557,
+      "image_id": 355,
+      "caption": "Angular yellow-brown lesions confined by leaf veins; white downy growth on underside."
+    },
+    {
+      "id": 3558,
+      "image_id": 355,
+      "caption": "Dark purplish-grey fuzzy growth on the underside of cucumber leaves from Downy Mildew."
+    },
+    {
+      "id": 3559,
+      "image_id": 355,
+      "caption": "Merging yellow spots and yellowing margins show Downy Mildew spreading on cucumber leaves."
+    },
+    {
+      "id": 3560,
+      "image_id": 355,
+      "caption": "Cucumber leaves wilt, turn brown, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3561,
+      "image_id": 357,
+      "caption": "Initial Downy Mildew symptoms: pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3562,
+      "image_id": 357,
+      "caption": "Angular, yellow-to-brown lesions on upper leaf surface, bordered by veins."
+    },
+    {
+      "id": 3563,
+      "image_id": 357,
+      "caption": "Dark purplish grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3564,
+      "image_id": 357,
+      "caption": "Spots merge, margins yellow as Downy Mildew spreads on cucumber leaves."
+    },
+    {
+      "id": 3565,
+      "image_id": 357,
+      "caption": "Leaves wilt, yellow, brown, die; stem base browns, causing complete plant death."
+    },
+    {
+      "id": 3566,
+      "image_id": 361,
+      "caption": "Initial symptoms: pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3567,
+      "image_id": 361,
+      "caption": "Angular yellow-brown lesions between leaf veins, white sporulation on undersides."
+    },
+    {
+      "id": 3568,
+      "image_id": 361,
+      "caption": "Dark purplish grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3569,
+      "image_id": 361,
+      "caption": "Merged leaf spots and yellowing margins spread, causing extensive discoloration and damage from Downy Mildew."
+    },
+    {
+      "id": 3570,
+      "image_id": 361,
+      "caption": "Cucumber leaves completely wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3571,
+      "image_id": 362,
+      "caption": "Pale green to yellow spots appear on the upper leaf surface as initial symptoms."
+    },
+    {
+      "id": 3572,
+      "image_id": 362,
+      "caption": "Angular yellow-brown lesions confined by leaf veins, with gray mold below."
+    },
+    {
+      "id": 3573,
+      "image_id": 362,
+      "caption": "Dark purplish-grey fuzzy patches on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3574,
+      "image_id": 362,
+      "caption": "Merging spots and yellowing margins indicate Downy Mildew spread on cucumber leaves."
+    },
+    {
+      "id": 3575,
+      "image_id": 362,
+      "caption": "Leaves wilt, brown, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3576,
+      "image_id": 378,
+      "caption": "Pale green to yellow spots on upper leaf surface indicate initial Downy Mildew symptoms."
+    },
+    {
+      "id": 3577,
+      "image_id": 378,
+      "caption": "Angular, yellow-brown lesions bounded by veins; white mold on undersides."
+    },
+    {
+      "id": 3578,
+      "image_id": 378,
+      "caption": "Dark purplish-gray fuzzy mold on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3579,
+      "image_id": 378,
+      "caption": "Spots merge into larger lesions; leaf margins yellow as Downy Mildew spreads on cucumber leaves."
+    },
+    {
+      "id": 3580,
+      "image_id": 378,
+      "caption": "Leaves yellow, wilt, die; stem base browns."
+    },
+    {
+      "id": 3581,
+      "image_id": 382,
+      "caption": "Small pale green to yellow spots on upper leaf surface."
+    },
+    {
+      "id": 3582,
+      "image_id": 382,
+      "caption": "Angular yellow-brown lesions following leaf veins; white mold on underside."
+    },
+    {
+      "id": 3583,
+      "image_id": 382,
+      "caption": "Dark purplish grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3584,
+      "image_id": 382,
+      "caption": "Merged leaf spots form large lesions; yellowing margins indicate Downy Mildew progression on cucumber leaves."
+    },
+    {
+      "id": 3585,
+      "image_id": 382,
+      "caption": "Downy Mildew causes cucumber leaves to wilt, die, with stem base browning."
+    },
+    {
+      "id": 3586,
+      "image_id": 403,
+      "caption": "Pale green to yellow spots on upper leaf surface, initial Downy Mildew symptom."
+    },
+    {
+      "id": 3587,
+      "image_id": 403,
+      "caption": "Angular yellow-to-brown lesions bordered by veins; white downy growth on undersides."
+    },
+    {
+      "id": 3588,
+      "image_id": 403,
+      "caption": "Dark purplish grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3589,
+      "image_id": 403,
+      "caption": "Merged spots and yellowing margins characterize Downy Mildew's spread on cucumber leaves, forming discolored patches."
+    },
+    {
+      "id": 3590,
+      "image_id": 403,
+      "caption": "Cucumber leaves yellow, brown, wilt, die; stem base browns."
+    },
+    {
+      "id": 3591,
+      "image_id": 404,
+      "caption": "Pale green to yellow spots on upper leaf surface indicate early Downy Mildew."
+    },
+    {
+      "id": 3592,
+      "image_id": 404,
+      "caption": "Angular, yellowish-brown lesions with faint edges on cucumber leaf surfaces."
+    },
+    {
+      "id": 3593,
+      "image_id": 404,
+      "caption": "Dark purplish-grey fuzzy patch on cucumber leaf undersides."
+    },
+    {
+      "id": 3594,
+      "image_id": 404,
+      "caption": "Merged leaf spots and yellowing margins show Downy Mildew spread on cucumbers."
+    },
+    {
+      "id": 3595,
+      "image_id": 404,
+      "caption": "Leaves wilt, die; stem base browns, causing complete collapse."
+    },
+    {
+      "id": 3596,
+      "image_id": 409,
+      "caption": "Pale green to yellow spots on the upper leaf surface indicate initial cucumber Downy Mildew symptoms."
+    },
+    {
+      "id": 3597,
+      "image_id": 409,
+      "caption": "Angular, yellow-to-brown lesions bounded by leaf veins on cucumber leaves from Downy Mildew."
+    },
+    {
+      "id": 3598,
+      "image_id": 409,
+      "caption": "Dark purplish-grey fuzzy patches on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3599,
+      "image_id": 409,
+      "caption": "Downy Mildew on cucumber leaves features merging yellow-brown spots, with leaf margins yellowing and spreading inward as the disease progresses."
+    },
+    {
+      "id": 3600,
+      "image_id": 409,
+      "caption": "Downy Mildew turns leaves yellow, brown, wilted, and dead; stem base browns, causing death."
+    },
+    {
+      "id": 3601,
+      "image_id": 414,
+      "caption": "Pale green to yellow irregular spots on upper leaf surface, early Downy Mildew symptom."
+    },
+    {
+      "id": 3602,
+      "image_id": 414,
+      "caption": "Angular, yellow-brown lesions confined by leaf veins on cucumber leaves."
+    },
+    {
+      "id": 3603,
+      "image_id": 414,
+      "caption": "Dark purplish-grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3604,
+      "image_id": 414,
+      "caption": "Spots merge into patches; leaf margins yellow as Downy Mildew spreads."
+    },
+    {
+      "id": 3605,
+      "image_id": 414,
+      "caption": "Leaves yellow, brown, wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3606,
+      "image_id": 415,
+      "caption": "Pale green to yellow spots on upper leaf surface are initial Downy Mildew symptoms."
+    },
+    {
+      "id": 3607,
+      "image_id": 415,
+      "caption": "Angular, vein-bounded yellow to brown lesions on cucumber leaves."
+    },
+    {
+      "id": 3608,
+      "image_id": 415,
+      "caption": "Dark purplish-grey fuzzy growth on the underside of cucumber leaves from Downy Mildew."
+    },
+    {
+      "id": 3609,
+      "image_id": 415,
+      "caption": "Merged spots form larger lesions, with leaf margins yellowing as Downy Mildew spreads."
+    },
+    {
+      "id": 3610,
+      "image_id": 415,
+      "caption": "Downy Mildew causes cucumber leaves to wilt, die, and stem base to brown."
+    },
+    {
+      "id": 3611,
+      "image_id": 420,
+      "caption": "Pale green to yellow spots appear on the upper leaf surface as initial Downy Mildew symptoms."
+    },
+    {
+      "id": 3612,
+      "image_id": 420,
+      "caption": "Angular yellow-brown lesions confined by leaf veins, with sharp edges."
+    },
+    {
+      "id": 3613,
+      "image_id": 420,
+      "caption": "Dark purplish-grey fuzzy growth on cucumber leaf undersides, typical of Downy Mildew."
+    },
+    {
+      "id": 3614,
+      "image_id": 420,
+      "caption": "Merging leaf spots and yellowing margins show Downy Mildew spread on cucumber leaves."
+    },
+    {
+      "id": 3615,
+      "image_id": 420,
+      "caption": "Cucumber leaves completely wilt, die; stem base browns."
+    },
+    {
+      "id": 3616,
+      "image_id": 424,
+      "caption": "Pale green to yellow spots on the upper leaf surface are initial symptoms of cucumber Downy Mildew."
+    },
+    {
+      "id": 3617,
+      "image_id": 424,
+      "caption": "Angular yellow lesions, bounded by leaf veins, on cucumber leaves."
+    },
+    {
+      "id": 3618,
+      "image_id": 424,
+      "caption": "Dark purplish-grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3619,
+      "image_id": 424,
+      "caption": "Merging yellow spots spread, with leaf margins yellowing as Downy Mildew progresses."
+    },
+    {
+      "id": 3620,
+      "image_id": 424,
+      "caption": "Cucumber leaves completely wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3621,
+      "image_id": 434,
+      "caption": "Initial symptoms: pale green to yellow spots on the upper leaf surface."
+    },
+    {
+      "id": 3622,
+      "image_id": 434,
+      "caption": "Angular yellow-brown lesions bounded by leaf veins; gray mold on lower surface."
+    },
+    {
+      "id": 3623,
+      "image_id": 434,
+      "caption": "Dark purplish-grey fuzzy patches on the leaf underside from Downy Mildew."
+    },
+    {
+      "id": 3624,
+      "image_id": 434,
+      "caption": "Merged spots and yellowing leaf margins indicate Downy Mildew's progression on cucumber leaves."
+    },
+    {
+      "id": 3625,
+      "image_id": 434,
+      "caption": "Leaves yellow, wilt, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3626,
+      "image_id": 442,
+      "caption": "Pale green to yellow angular spots appear on the upper leaf surface as early Downy Mildew symptoms."
+    },
+    {
+      "id": 3627,
+      "image_id": 442,
+      "caption": "Angular yellow-brown lesions following leaf veins on cucumber leaves."
+    },
+    {
+      "id": 3628,
+      "image_id": 442,
+      "caption": "Dark purplish grey fuzzy growth on the underside of cucumber leaves."
+    },
+    {
+      "id": 3629,
+      "image_id": 442,
+      "caption": "Downy Mildew spots merge on cucumber leaves, with yellowing of margins indicating disease spread."
+    },
+    {
+      "id": 3630,
+      "image_id": 442,
+      "caption": "Downy Mildew causes leaves to wilt, yellow, brown, and die; stem base browns."
+    },
+    {
+      "id": 3631,
+      "image_id": 447,
+      "caption": "Pale green to yellow spots on upper leaf surface indicate initial cucumber Downy Mildew symptoms."
+    },
+    {
+      "id": 3632,
+      "image_id": 447,
+      "caption": "Angular yellow-brown lesions, vein-bound, on upper leaf surface."
+    },
+    {
+      "id": 3633,
+      "image_id": 447,
+      "caption": "Dark purplish-grey fuzz on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3634,
+      "image_id": 447,
+      "caption": "Downy Mildew causes yellow spots to merge on cucumber leaves, leading to yellowing at the margins as the infection spreads."
+    },
+    {
+      "id": 3635,
+      "image_id": 447,
+      "caption": "Downy Mildew causes cucumber leaves to wilt, die; stem base browns."
+    },
+    {
+      "id": 3636,
+      "image_id": 449,
+      "caption": "Pale green to yellow spots on upper leaf surface mark initial cucumber Downy Mildew symptoms."
+    },
+    {
+      "id": 3637,
+      "image_id": 449,
+      "caption": "Angular yellow-brown lesions, vein-bounded, with white mold on leaf undersides."
+    },
+    {
+      "id": 3638,
+      "image_id": 449,
+      "caption": "Dark purplish-gray fuzzy growth on the underside of infected cucumber leaves."
+    },
+    {
+      "id": 3639,
+      "image_id": 449,
+      "caption": "Merging yellow spots form large lesions; leaf margins yellow, indicating Downy Mildew spread."
+    },
+    {
+      "id": 3640,
+      "image_id": 449,
+      "caption": "Cucumber leaves wilt, die; stem base browns, causing plant death."
+    },
+    {
+      "id": 3641,
+      "image_id": 456,
+      "caption": "Pale green to yellow spots on the upper leaf surface indicate initial Downy Mildew symptoms."
+    },
+    {
+      "id": 3642,
+      "image_id": 456,
+      "caption": "Angular yellow-brown lesions bounded by leaf veins with white downy growth."
+    },
+    {
+      "id": 3643,
+      "image_id": 456,
+      "caption": "Dark purplish-grey fuzzy patches on cucumber leaf undersides indicate Downy Mildew."
+    },
+    {
+      "id": 3644,
+      "image_id": 456,
+      "caption": "Merged spots and yellowing margins characterize Downy Mildew spread on cucumber leaves."
+    },
+    {
+      "id": 3645,
+      "image_id": 456,
+      "caption": "Downy Mildew: cucumber leaves wilt, die; stem base browns. Complete leaf death."
+    },
+    {
+      "id": 3646,
+      "image_id": 461,
+      "caption": "Pale green to yellow spots on upper leaf surface indicate initial cucumber Downy Mildew symptoms."
+    },
+    {
+      "id": 3647,
+      "image_id": 461,
+      "caption": "Angular, yellow-brown lesions confined by leaf veins on upper leaf surface."
+    },
+    {
+      "id": 3648,
+      "image_id": 461,
+      "caption": "Dark purplish-gray fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3649,
+      "image_id": 461,
+      "caption": "Merging yellow spots and yellowing leaf margins indicate Downy Mildew spread on cucumber leaves."
+    },
+    {
+      "id": 3650,
+      "image_id": 461,
+      "caption": "Leaves wilt, turn brown, and die. Stem base browns and rots."
+    },
+    {
+      "id": 3651,
+      "image_id": 464,
+      "caption": "Pale green to yellow angular spots on upper leaf surface, between veins."
+    },
+    {
+      "id": 3652,
+      "image_id": 464,
+      "caption": "Angular yellow lesions bordered by veins, with downy mold on the underside."
+    },
+    {
+      "id": 3653,
+      "image_id": 464,
+      "caption": "Dark purplish-grey fuzzy growth on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3654,
+      "image_id": 464,
+      "caption": "Merging yellow spots and yellowing leaf margins indicate Downy Mildew progression on cucumber leaves."
+    },
+    {
+      "id": 3655,
+      "image_id": 464,
+      "caption": "Leaves yellow, brown, rot, die; stem base browns, wilts, and dies."
+    },
+    {
+      "id": 3656,
+      "image_id": 466,
+      "caption": "Pale green to yellow angular spots on upper leaf surface, initial Downy Mildew symptom."
+    },
+    {
+      "id": 3657,
+      "image_id": 466,
+      "caption": "Angular yellow-brown lesions bounded by veins, white mold on lower leaf surface."
+    },
+    {
+      "id": 3658,
+      "image_id": 466,
+      "caption": "Dark purplish-grey fuzz appears on the underside of cucumber leaves, caused by Downy Mildew."
+    },
+    {
+      "id": 3659,
+      "image_id": 466,
+      "caption": "Merging yellow spots; leaf margins yellow, with lesions coalescing into large discolored regions."
+    },
+    {
+      "id": 3660,
+      "image_id": 466,
+      "caption": "Leaves wilt, die with yellow/brown spots; stem base browns, causing death."
+    },
+    {
+      "id": 3661,
+      "image_id": 467,
+      "caption": "Pale green to yellow angular spots on upper leaf surface, often near veins."
+    },
+    {
+      "id": 3662,
+      "image_id": 467,
+      "caption": "Angular, yellow-brown lesions between leaf veins; gray mold on undersides."
+    },
+    {
+      "id": 3663,
+      "image_id": 467,
+      "caption": "Dark purplish-grey fuzzy growth on the underside of infected cucumber leaves."
+    },
+    {
+      "id": 3664,
+      "image_id": 467,
+      "caption": "Downy Mildew causes spots to merge, with yellowing spreading from leaf margins, forming irregular discolored patches."
+    },
+    {
+      "id": 3665,
+      "image_id": 467,
+      "caption": "Downy Mildew causes cucumber leaves to yellow, brown, wilt, and die; stem base browns."
+    },
+    {
+      "id": 3666,
+      "image_id": 469,
+      "caption": "Pale green to yellow spots appear on the upper leaf surface as initial Downy Mildew symptoms."
+    },
+    {
+      "id": 3667,
+      "image_id": 469,
+      "caption": "Angular yellow-brown lesions bordered by leaf veins, typical of Downy Mildew on cucumbers."
+    },
+    {
+      "id": 3668,
+      "image_id": 469,
+      "caption": "Dark purplish-grey fuzzy patches on cucumber leaf undersides caused by Downy Mildew."
+    },
+    {
+      "id": 3669,
+      "image_id": 469,
+      "caption": "Merged downy mildew spots cause yellowing at leaf margins as infection spreads on cucumber leaves."
+    },
+    {
+      "id": 3670,
+      "image_id": 469,
+      "caption": "Cucumber leaves wilt, die; stem base browns, causing complete leaf death and wilting."
+    },
+    {
+      "id": 3671,
+      "image_id": 473,
+      "caption": "Pale green to yellow angular spots on the upper leaf surface."
+    },
+    {
+      "id": 3672,
+      "image_id": 473,
+      "caption": "Angular, yellow-to-brown lesions bounded by leaf veins on cucumber leaves."
+    },
+    {
+      "id": 3673,
+      "image_id": 473,
+      "caption": "Dark purplish grey fuzz on cucumber leaf undersides from Downy Mildew."
+    },
+    {
+      "id": 3674,
+      "image_id": 473,
+      "caption": "Merging spots form yellow patches; leaf margins yellow as infection spreads."
+    },
+    {
+      "id": 3675,
+      "image_id": 473,
+      "caption": "Leaves yellow, brown, wilt, die; stem base browns. Rapid collapse."
+    },
+    {
+      "id": 3676,
+      "image_id": 478,
+      "caption": "Pale green to yellow spots on upper leaf surface indicate early Downy Mildew symptoms."
+    },
+    {
+      "id": 3677,
+      "image_id": 478,
+      "caption": "Angular yellow-brown lesions confined by leaf veins."
+    },
+    {
+      "id": 3678,
+      "image_id": 478,
+      "caption": "Dark purplish-grey fuzzy patches on the underside of cucumber leaves from Downy Mildew."
+    },
+    {
+      "id": 3679,
+      "image_id": 478,
+      "caption": "Merging yellow spots of Downy Mildew cause cucumber leaf margins to yellow as infection spreads."
+    },
+    {
+      "id": 3680,
+      "image_id": 478,
+      "caption": "Leaves wilt, turn brown, die; stem base browns from Downy Mildew."
+    },
+    {
+      "id": 3681,
+      "image_id": 487,
+      "caption": "Vibrant green, unblemished, no disease spots or discoloration, healthy leaf."
+    },
+    {
+      "id": 3682,
+      "image_id": 487,
+      "caption": "A healthy cucumber leaf has a smooth, unblemished surface with no spots or holes."
+    },
+    {
+      "id": 3683,
+      "image_id": 487,
+      "caption": "Vibrant green, smooth, unblemished, no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3684,
+      "image_id": 487,
+      "caption": "Large, intact cucumber leaf with uniform vibrant green color, no blemishes."
+    },
+    {
+      "id": 3685,
+      "image_id": 487,
+      "caption": "Leaves are vibrant green, fresh, and show no signs of disease or damage."
+    },
+    {
+      "id": 3686,
+      "image_id": 491,
+      "caption": "Vibrant green, no disease spots, clear veins, smooth texture, healthy leaf."
+    },
+    {
+      "id": 3687,
+      "image_id": 491,
+      "caption": "Healthy cucumber leaf has smooth texture, no spots or holes, vibrant green surface."
+    },
+    {
+      "id": 3688,
+      "image_id": 491,
+      "caption": "Vibrant green, intact edges, smooth surface, no blemishes or damage."
+    },
+    {
+      "id": 3689,
+      "image_id": 491,
+      "caption": "Intact, lobed, vibrant green leaf with smooth edges, no blemishes, uniform color."
+    },
+    {
+      "id": 3690,
+      "image_id": 491,
+      "caption": "The cucumber leaf appears fresh, vibrant green, with no visible disease signs or damage."
+    },
+    {
+      "id": 3691,
+      "image_id": 494,
+      "caption": "Vibrant green, healthy cucumber leaf with clear veins and no disease symptoms or discoloration."
+    },
+    {
+      "id": 3692,
+      "image_id": 494,
+      "caption": "A healthy cucumber leaf has a smooth surface, no spots, and no holes, with even texture."
+    },
+    {
+      "id": 3693,
+      "image_id": 494,
+      "caption": "Bright green, smooth, intact; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3694,
+      "image_id": 494,
+      "caption": "Intact, palmate leaf: smooth edges, uniform bright green, prominent veins."
+    },
+    {
+      "id": 3695,
+      "image_id": 494,
+      "caption": "Cucumber leaf is fresh, vibrant green, with minor damage; no disease signs. Healthy."
+    },
+    {
+      "id": 3696,
+      "image_id": 499,
+      "caption": "Vibrant green, unblemished, no holes or discoloration, healthy cucumber leaf with smooth texture and no disease."
+    },
+    {
+      "id": 3697,
+      "image_id": 499,
+      "caption": "A healthy cucumber leaf has a smooth, unblemished surface with no spots or holes."
+    },
+    {
+      "id": 3698,
+      "image_id": 499,
+      "caption": "Vibrant green, smooth, intact leaf with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3699,
+      "image_id": 499,
+      "caption": "Intact, smooth, uniformly bright green leaf with no holes or blemishes, showcasing healthy structure."
+    },
+    {
+      "id": 3700,
+      "image_id": 499,
+      "caption": "Vibrant green leaf; no visible disease signs. Minor insect holes, but fresh and healthy."
+    },
+    {
+      "id": 3701,
+      "image_id": 501,
+      "caption": "Vibrant green, smooth, unblemished leaf with healthy structure, no disease symptoms."
+    },
+    {
+      "id": 3702,
+      "image_id": 501,
+      "caption": "A healthy cucumber leaf has a smooth, unblemished surface free of spots or holes."
+    },
+    {
+      "id": 3703,
+      "image_id": 501,
+      "caption": "Bright green, smooth, intact; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3704,
+      "image_id": 501,
+      "caption": "Intact, smooth, uniform bright green leaf with serrated edges, no blemishes."
+    },
+    {
+      "id": 3705,
+      "image_id": 501,
+      "caption": "Fresh green cucumber leaf with no visible disease signs; vibrant and healthy appearance."
+    },
+    {
+      "id": 3706,
+      "image_id": 505,
+      "caption": "Vibrant green, no disease symptoms; smooth, healthy cucumber leaf with clear veins and unblemished edges."
+    },
+    {
+      "id": 3707,
+      "image_id": 505,
+      "caption": "A healthy cucumber leaf has a smooth texture, no spots, and no holes."
+    },
+    {
+      "id": 3708,
+      "image_id": 505,
+      "caption": "Vibrant green, smooth, intact edges, no damage or discoloration."
+    },
+    {
+      "id": 3709,
+      "image_id": 505,
+      "caption": "Intact, large, heart-shaped leaf with vibrant, uniform green color, prominent veins, and smooth edges."
+    },
+    {
+      "id": 3710,
+      "image_id": 505,
+      "caption": "The cucumber leaf is vibrant green, fresh, and shows no signs of disease or damage."
+    },
+    {
+      "id": 3711,
+      "image_id": 507,
+      "caption": "Vibrant green, smooth, unblemished leaf with no disease symptoms."
+    },
+    {
+      "id": 3712,
+      "image_id": 507,
+      "caption": "A healthy cucumber leaf has a smooth texture, no spots or holes, and a uniform green color across its surface."
+    },
+    {
+      "id": 3713,
+      "image_id": 507,
+      "caption": "Vibrant green, smooth, unblemished leaf with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3714,
+      "image_id": 507,
+      "caption": "Intact, broad leaf with smooth edges, uniform vibrant green, prominent veins, no damage."
+    },
+    {
+      "id": 3715,
+      "image_id": 507,
+      "caption": "The leaf is fresh, vibrant green, with no visible disease signs, indicating good health."
+    },
+    {
+      "id": 3716,
+      "image_id": 520,
+      "caption": "Vibrant green, smooth, disease-free leaf with no discoloration or damage."
+    },
+    {
+      "id": 3717,
+      "image_id": 520,
+      "caption": "Healthy cucumber leaf surface is smooth, with no spots or holes."
+    },
+    {
+      "id": 3718,
+      "image_id": 520,
+      "caption": "Vibrant green, undamaged with clear veins; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3719,
+      "image_id": 520,
+      "caption": "Fresh cucumber leaves: intact, heart-shaped, with prominent veins and uniform vibrant green color."
+    },
+    {
+      "id": 3720,
+      "image_id": 520,
+      "caption": "The cucumber leaf is vibrant green, smooth, turgid, with no disease signs—appearing fresh and healthy."
+    },
+    {
+      "id": 3721,
+      "image_id": 522,
+      "caption": "Vibrant green, smooth leaf with clear veins, no spots or holes, healthy appearance."
+    },
+    {
+      "id": 3722,
+      "image_id": 522,
+      "caption": "Healthy cucumber leaves have smooth surfaces with no spots or holes and vibrant green color."
+    },
+    {
+      "id": 3723,
+      "image_id": 522,
+      "caption": "Vibrant green, smooth, undamaged leaf with no discoloration or holes."
+    },
+    {
+      "id": 3724,
+      "image_id": 522,
+      "caption": "Intact, heart-shaped leaf with prominent veins; vibrant, uniform green, no blemishes."
+    },
+    {
+      "id": 3725,
+      "image_id": 522,
+      "caption": "Healthy, fresh cucumber leaf with no visible disease signs; vibrant green and intact."
+    },
+    {
+      "id": 3726,
+      "image_id": 524,
+      "caption": "Vibrant green leaf with clear veins, no discoloration or spots, indicating healthy growth."
+    },
+    {
+      "id": 3727,
+      "image_id": 524,
+      "caption": "Smooth, spot-free, and hole-free surface; vibrant green, intact, healthy cucumber leaf."
+    },
+    {
+      "id": 3728,
+      "image_id": 524,
+      "caption": "Vibrant green, smooth with intact veins, no damage or discoloration."
+    },
+    {
+      "id": 3729,
+      "image_id": 524,
+      "caption": "Intact heart-shaped leaf with smooth edges, uniform bright green color, and prominent veins."
+    },
+    {
+      "id": 3730,
+      "image_id": 524,
+      "caption": "The leaf appears fresh, vibrant green, with no visible disease signs or damage."
+    },
+    {
+      "id": 3731,
+      "image_id": 525,
+      "caption": "Vibrant green color, no disease symptoms like spots or holes; healthy cucumber leaf."
+    },
+    {
+      "id": 3732,
+      "image_id": 525,
+      "caption": "A healthy cucumber leaf has a smooth, unblemished surface with no spots or holes and consistent texture."
+    },
+    {
+      "id": 3733,
+      "image_id": 525,
+      "caption": "Vibrant green, smooth, intact; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3734,
+      "image_id": 525,
+      "caption": "Intact, large, heart-shaped leaf with deep, uniform green color and prominent veins."
+    },
+    {
+      "id": 3735,
+      "image_id": 525,
+      "caption": "Vibrant green, smooth, no disease signs, holes, or discoloration. Healthy and fresh."
+    },
+    {
+      "id": 3736,
+      "image_id": 530,
+      "caption": "Vibrant green, smooth texture, no discoloration or lesions, healthy with visible veins."
+    },
+    {
+      "id": 3737,
+      "image_id": 530,
+      "caption": "A healthy cucumber leaf has a smooth surface, free from spots or holes."
+    },
+    {
+      "id": 3738,
+      "image_id": 530,
+      "caption": "Healthy cucumber leaves are vibrant green, smooth, unblemished, and free from discoloration or damage."
+    },
+    {
+      "id": 3739,
+      "image_id": 530,
+      "caption": "Intact, heart-shaped leaf; vibrant uniform green, smooth surface, no blemishes or discoloration."
+    },
+    {
+      "id": 3740,
+      "image_id": 530,
+      "caption": "Cucumber leaves appear fresh, vibrant green, with no visible disease signs or damage."
+    },
+    {
+      "id": 3741,
+      "image_id": 531,
+      "caption": "Vibrant green cucumber leaf, no spots, yellowing, or deformities; healthy and robust."
+    },
+    {
+      "id": 3742,
+      "image_id": 531,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots or holes."
+    },
+    {
+      "id": 3743,
+      "image_id": 531,
+      "caption": "Vibrant green, smooth, undamaged. No discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3744,
+      "image_id": 531,
+      "caption": "Intact, large green leaves with serrated edges, prominent veins, uniform color, no damage."
+    },
+    {
+      "id": 3745,
+      "image_id": 531,
+      "caption": "Vibrant green, no disease signs; leaf appears fresh and healthy."
+    },
+    {
+      "id": 3746,
+      "image_id": 546,
+      "caption": "Vibrant green, no disease spots, holes, or yellowing; healthy texture and structure."
+    },
+    {
+      "id": 3747,
+      "image_id": 546,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots or holes."
+    },
+    {
+      "id": 3748,
+      "image_id": 546,
+      "caption": "Bright green, smooth, intact with no blemishes, holes, or discoloration."
+    },
+    {
+      "id": 3749,
+      "image_id": 546,
+      "caption": "Intact, deep green leaf with uniform color, no damage, smooth texture."
+    },
+    {
+      "id": 3750,
+      "image_id": 546,
+      "caption": "Fresh, vibrant green leaf with no visible disease signs; healthy appearance and clear veins."
+    },
+    {
+      "id": 3751,
+      "image_id": 547,
+      "caption": "Vibrant green, smooth, no discoloration or disease; healthy veins visible."
+    },
+    {
+      "id": 3752,
+      "image_id": 547,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots, holes, or blemishes."
+    },
+    {
+      "id": 3753,
+      "image_id": 547,
+      "caption": "Vibrant green, smooth, intact leaf with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3754,
+      "image_id": 547,
+      "caption": "Large, intact cucumber leaf with deep veins, uniform vibrant green color, no blemishes or damage."
+    },
+    {
+      "id": 3755,
+      "image_id": 547,
+      "caption": "Cucumber leaf is fresh, vibrant green; no visible disease signs, only minor insect hole."
+    },
+    {
+      "id": 3756,
+      "image_id": 549,
+      "caption": "Vibrant green, no disease symptoms, smooth, healthy cucumber leaf without blemishes or discoloration."
+    },
+    {
+      "id": 3757,
+      "image_id": 549,
+      "caption": "A healthy cucumber leaf has a smooth surface, no spots or holes, and even green color."
+    },
+    {
+      "id": 3758,
+      "image_id": 549,
+      "caption": "Vibrant green, intact leaf with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3759,
+      "image_id": 549,
+      "caption": "Intact, uniform bright green, smooth edges, prominent veins, no blemishes."
+    },
+    {
+      "id": 3760,
+      "image_id": 549,
+      "caption": "Fresh, vibrant green leaf with no disease signs or discoloration; healthy appearance."
+    },
+    {
+      "id": 3761,
+      "image_id": 558,
+      "caption": "Vibrant green, smooth, no yellowing, spots, or damage—healthy cucumber leaf."
+    },
+    {
+      "id": 3762,
+      "image_id": 558,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots or holes."
+    },
+    {
+      "id": 3763,
+      "image_id": 558,
+      "caption": "Vibrant green, smooth, undamaged, with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3764,
+      "image_id": 558,
+      "caption": "Intact, large, deeply veined leaf with uniform bright green color and slightly rough surface."
+    },
+    {
+      "id": 3765,
+      "image_id": 558,
+      "caption": "Healthy, fresh cucumber leaf with no visible disease signs or damage."
+    },
+    {
+      "id": 3766,
+      "image_id": 560,
+      "caption": "Vibrant green, unblemished leaf with no disease, holes, or discoloration."
+    },
+    {
+      "id": 3767,
+      "image_id": 560,
+      "caption": "Healthy cucumber leaf surface is smooth, spotless, and hole-free."
+    },
+    {
+      "id": 3768,
+      "image_id": 560,
+      "caption": "Vibrant green, smooth, unblemished leaves with no holes, discoloration, or damage."
+    },
+    {
+      "id": 3769,
+      "image_id": 560,
+      "caption": "Intact cucumber leaf: heart-shaped, smooth edges, vibrant uniform green, no blemishes."
+    },
+    {
+      "id": 3770,
+      "image_id": 560,
+      "caption": "Leaves appear fresh, green, healthy with no disease signs; minor pest holes but not diseased."
+    },
+    {
+      "id": 3771,
+      "image_id": 561,
+      "caption": "Vibrant green, smooth leaf without spots, holes, or discoloration; healthy and glossy."
+    },
+    {
+      "id": 3772,
+      "image_id": 561,
+      "caption": "A healthy cucumber leaf has a smooth, unblemished surface with no spots or holes."
+    },
+    {
+      "id": 3773,
+      "image_id": 561,
+      "caption": "Bright green, intact, no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3774,
+      "image_id": 561,
+      "caption": "Intact, vibrant green cucumber leaf with smooth edges, no holes, uniform color, and clear veins."
+    },
+    {
+      "id": 3775,
+      "image_id": 561,
+      "caption": "Cucumber leaves appear fresh, vibrant green, with no visible disease; minor insect damage noted."
+    },
+    {
+      "id": 3776,
+      "image_id": 562,
+      "caption": "Vibrant green leaf, smooth, no disease spots or browning. Healthy appearance."
+    },
+    {
+      "id": 3777,
+      "image_id": 562,
+      "caption": "Healthy cucumber leaf has a smooth surface, no spots, holes, or blemishes."
+    },
+    {
+      "id": 3778,
+      "image_id": 562,
+      "caption": "Vibrant green, smooth, unblemished; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3779,
+      "image_id": 562,
+      "caption": "Intact, heart-shaped leaf with smooth edges, uniform bright green, no blemishes."
+    },
+    {
+      "id": 3780,
+      "image_id": 562,
+      "caption": "Vibrant green cucumber leaves appear fresh with no visible disease, pests, or damage."
+    },
+    {
+      "id": 3781,
+      "image_id": 565,
+      "caption": "Vibrant green, unblemished, no disease symptoms; healthy cucumber leaf with clear veins."
+    },
+    {
+      "id": 3782,
+      "image_id": 565,
+      "caption": "Healthy cucumber leaves have smooth surfaces with no spots or holes, uniform green color."
+    },
+    {
+      "id": 3783,
+      "image_id": 565,
+      "caption": "Vibrant green, unblemished, whole leaf with no damage or discoloration."
+    },
+    {
+      "id": 3784,
+      "image_id": 565,
+      "caption": "Fresh cucumber leaf: intact, heart-shaped, uniform vibrant green, with prominent veins."
+    },
+    {
+      "id": 3785,
+      "image_id": 565,
+      "caption": "Leaves appear fresh, vibrant green, with no visible disease signs or severe damage."
+    },
+    {
+      "id": 3786,
+      "image_id": 567,
+      "caption": "Vibrant green, smooth leaf with no yellowing, spots, or holes, showing healthy texture and strong veins."
+    },
+    {
+      "id": 3787,
+      "image_id": 567,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots or holes."
+    },
+    {
+      "id": 3788,
+      "image_id": 567,
+      "caption": "Vibrant green, smooth edges, no holes, discoloration, necrosis, or damage; fully intact."
+    },
+    {
+      "id": 3789,
+      "image_id": 567,
+      "caption": "Intact, large, lobed leaf with vibrant uniform green, no damage or blemishes."
+    },
+    {
+      "id": 3790,
+      "image_id": 567,
+      "caption": "Fresh, vibrant green cucumber leaf. No visible disease signs or damage. Healthy appearance."
+    },
+    {
+      "id": 3791,
+      "image_id": 576,
+      "caption": "Vibrant green, smooth, no spots, holes, or blemishes. Healthy and robust."
+    },
+    {
+      "id": 3792,
+      "image_id": 576,
+      "caption": "Smooth, unblemished surface; no spots, holes, or discoloration on a healthy cucumber leaf."
+    },
+    {
+      "id": 3793,
+      "image_id": 576,
+      "caption": "Healthy cucumber leaf: vibrant green, smooth, intact, no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3794,
+      "image_id": 576,
+      "caption": "Intact, large, lobed leaf with smooth edges; vibrant, uniform green color and clear veins."
+    },
+    {
+      "id": 3795,
+      "image_id": 576,
+      "caption": "The cucumber leaf appears fresh with no visible disease signs, showing healthy green color and intact structure."
+    },
+    {
+      "id": 3796,
+      "image_id": 588,
+      "caption": "Vibrant green, no disease, smooth, no holes or spots."
+    },
+    {
+      "id": 3797,
+      "image_id": 588,
+      "caption": "A healthy cucumber leaf has a smooth, unblemished surface with no spots or holes."
+    },
+    {
+      "id": 3798,
+      "image_id": 588,
+      "caption": "Bright green, intact with no holes, blemishes, or discoloration."
+    },
+    {
+      "id": 3799,
+      "image_id": 588,
+      "caption": "Intact, undamaged leaf with uniform bright green color, smooth edges, no discoloration or holes."
+    },
+    {
+      "id": 3800,
+      "image_id": 588,
+      "caption": "The cucumber leaf appears fresh, green, and healthy with no visible disease signs, only minor physical damage."
+    },
+    {
+      "id": 3801,
+      "image_id": 591,
+      "caption": "Vibrant green, no disease, clear veins, healthy leaf."
+    },
+    {
+      "id": 3802,
+      "image_id": 591,
+      "caption": "Smooth texture, no spots or holes on a healthy cucumber leaf."
+    },
+    {
+      "id": 3803,
+      "image_id": 591,
+      "caption": "Vibrant green, smooth, intact; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3804,
+      "image_id": 591,
+      "caption": "Intact, heart-shaped leaf with vibrant uniform green color, clear veins, no blemishes or damage."
+    },
+    {
+      "id": 3805,
+      "image_id": 591,
+      "caption": "The cucumber leaf appears fresh, vibrant green, with no visible disease signs or damage."
+    },
+    {
+      "id": 3806,
+      "image_id": 593,
+      "caption": "Vibrant green, unblemished leaf; no disease symptoms, healthy texture, full color."
+    },
+    {
+      "id": 3807,
+      "image_id": 593,
+      "caption": "Healthy cucumber leaves have smooth, unblemished surfaces with no spots or holes."
+    },
+    {
+      "id": 3808,
+      "image_id": 593,
+      "caption": "Vibrant green, smooth, intact with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3809,
+      "image_id": 593,
+      "caption": "Large, intact palmate leaf with uniform deep green color, smooth surface, no blemishes."
+    },
+    {
+      "id": 3810,
+      "image_id": 593,
+      "caption": "Fresh, vibrant green cucumber leaf with no visible disease signs or damage. Healthy appearance."
+    },
+    {
+      "id": 3811,
+      "image_id": 598,
+      "caption": "Vibrant green, unblemished cucumber leaf with no disease symptoms or discoloration."
+    },
+    {
+      "id": 3812,
+      "image_id": 598,
+      "caption": "A healthy cucumber leaf's surface is smooth, with no spots or holes, appearing vibrant."
+    },
+    {
+      "id": 3813,
+      "image_id": 598,
+      "caption": "Vibrant green, smooth, intact leaves with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3814,
+      "image_id": 598,
+      "caption": "Intact, heart-shaped cucumber leaf with uniform bright green color, serrated edges, and visible veins."
+    },
+    {
+      "id": 3815,
+      "image_id": 598,
+      "caption": "Vibrant green leaves, no visible disease; fresh appearance with minimal blemishes."
+    },
+    {
+      "id": 3816,
+      "image_id": 599,
+      "caption": "Vibrant green, smooth texture, no disease spots or yellowing. Healthy and robust."
+    },
+    {
+      "id": 3817,
+      "image_id": 599,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots or holes."
+    },
+    {
+      "id": 3818,
+      "image_id": 599,
+      "caption": "Vibrant green, smooth, intact leaf; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3819,
+      "image_id": 599,
+      "caption": "Intact, deeply lobed leaves with uniform, vibrant green color and prominent veins."
+    },
+    {
+      "id": 3820,
+      "image_id": 599,
+      "caption": "Cucumber leaves are fresh, vibrant green, with no visible disease or damage. Healthy status."
+    },
+    {
+      "id": 3821,
+      "image_id": 601,
+      "caption": "Vibrant green, smooth leaf with clear veins, no disease or blemishes."
+    },
+    {
+      "id": 3822,
+      "image_id": 601,
+      "caption": "A healthy cucumber leaf has a smooth texture, no spots or holes, and vibrant green color."
+    },
+    {
+      "id": 3823,
+      "image_id": 601,
+      "caption": "Vibrant green, smooth, undamaged; no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3824,
+      "image_id": 601,
+      "caption": "Vibrant uniform green, smooth edges, intact structure with no blemishes or discoloration."
+    },
+    {
+      "id": 3825,
+      "image_id": 601,
+      "caption": "The cucumber leaf appears fresh, vibrant, and healthy with no visible disease signs or damage."
+    },
+    {
+      "id": 3826,
+      "image_id": 614,
+      "caption": "Vibrant green, disease-free, smooth, healthy leaf with clear veins."
+    },
+    {
+      "id": 3827,
+      "image_id": 614,
+      "caption": "Smooth, spotless, and hole-free surface characterizes a healthy cucumber leaf."
+    },
+    {
+      "id": 3828,
+      "image_id": 614,
+      "caption": "Vibrant green, smooth, intact with no discoloration, necrosis, or damage."
+    },
+    {
+      "id": 3829,
+      "image_id": 614,
+      "caption": "A fresh cucumber leaf has an intact, uniform deep green structure with smooth edges and prominent veins."
+    },
+    {
+      "id": 3830,
+      "image_id": 614,
+      "caption": "Cucumber leaves appear fresh, vibrant green, with no visible disease signs or severe damage."
+    },
+    {
+      "id": 3831,
+      "image_id": 618,
+      "caption": "Vibrant green, smooth texture, no holes, spots, or discoloration, indicating healthy and disease-free leaf."
+    },
+    {
+      "id": 3832,
+      "image_id": 618,
+      "caption": "A healthy cucumber leaf has a smooth surface with no spots or holes."
+    },
+    {
+      "id": 3833,
+      "image_id": 618,
+      "caption": "Vibrant green, smooth, unblemished with no holes or discoloration."
+    },
+    {
+      "id": 3834,
+      "image_id": 618,
+      "caption": "Intact, uniformly green, heart-shaped leaf with smooth texture and prominent veins."
+    },
+    {
+      "id": 3835,
+      "image_id": 618,
+      "caption": "Leaf appears fresh, vibrant green, no visible disease signs like spots or wilting."
+    },
+    {
+      "id": 3836,
+      "image_id": 635,
+      "caption": "Vibrant green leaf with clear veins, no discoloration or spots, showing robust health."
+    },
+    {
+      "id": 3837,
+      "image_id": 635,
+      "caption": "Smooth, unblemished surface with no spots or holes on healthy cucumber leaf."
+    },
+    {
+      "id": 3838,
+      "image_id": 635,
+      "caption": "Vibrant green, smooth, whole leaf with no damage or blemishes."
+    },
+    {
+      "id": 3839,
+      "image_id": 635,
+      "caption": "Intact, smooth-edged leaf with uniform bright green color, no blemishes or damage."
+    },
+    {
+      "id": 3840,
+      "image_id": 635,
+      "caption": "Cucumber leaves appear healthy, fresh, with no visible disease signs or damage."
+    },
+    {
+      "id": 3841,
+      "image_id": 642,
+      "caption": "Water-soaked leaf areas form circular dark tan lesions."
+    },
+    {
+      "id": 3842,
+      "image_id": 642,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves, often coalescing."
+    },
+    {
+      "id": 3843,
+      "image_id": 642,
+      "caption": "Brown, sunken stem cankers with gummy exudate; may cause cracking and dieback."
+    },
+    {
+      "id": 3844,
+      "image_id": 642,
+      "caption": "Gummy, sticky brown ooze exudes from stem cankers, drying to dark residue."
+    },
+    {
+      "id": 3845,
+      "image_id": 642,
+      "caption": "Gummy Stem Blight causes black, sunken rot lesions on cucumbers, leading to fruit decay and blackening."
+    },
+    {
+      "id": 3846,
+      "image_id": 644,
+      "caption": "Water-soaked leaf spots form circular dark tan lesions with yellow halos."
+    },
+    {
+      "id": 3847,
+      "image_id": 644,
+      "caption": "Circular dark brown lesions with yellow halos, coalescing on cucumber leaves from Gummy Stem Blight."
+    },
+    {
+      "id": 3848,
+      "image_id": 644,
+      "caption": "Elongated, sunken stem cankers; water-soaked, brown, with gummy exudate, causing wilting."
+    },
+    {
+      "id": 3849,
+      "image_id": 644,
+      "caption": "Gummy brown ooze exudes from stem cankers, forming sticky, translucent, dark-brown droplets."
+    },
+    {
+      "id": 3850,
+      "image_id": 644,
+      "caption": "Gummy Stem Blight causes black rot: sunken, dark lesions on cucumber fruits."
+    },
+    {
+      "id": 3851,
+      "image_id": 645,
+      "caption": "Water-soaked leaf areas with circular dark tan lesions, showing early Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3852,
+      "image_id": 645,
+      "caption": "Circular dark brown lesions with concentric rings on cucumber leaves."
+    },
+    {
+      "id": 3853,
+      "image_id": 645,
+      "caption": "Sunken, water-soaked, brown lesions with gummy exudate; may cause stem collapse."
+    },
+    {
+      "id": 3854,
+      "image_id": 645,
+      "caption": "Gummy brown ooze exudes from stem cankers, appearing as sticky, dark, glistening discharge."
+    },
+    {
+      "id": 3855,
+      "image_id": 645,
+      "caption": "Gummy Stem Blight causes black rot on cucumber fruit as dark, sunken, gummy, decayed lesions."
+    },
+    {
+      "id": 3856,
+      "image_id": 650,
+      "caption": "Water-soaked leaf spots form circular dark tan lesions with faint yellow halos."
+    },
+    {
+      "id": 3857,
+      "image_id": 650,
+      "caption": "Circular dark brown lesions with tan centers on cucumber leaves."
+    },
+    {
+      "id": 3858,
+      "image_id": 650,
+      "caption": "Dark, sunken stem lesions with gummy exudate, causing stem decay and collapse."
+    },
+    {
+      "id": 3859,
+      "image_id": 650,
+      "caption": "Sticky, gummy, brown exudate oozes from stem cankers in Gummy Stem Blight."
+    },
+    {
+      "id": 3860,
+      "image_id": 650,
+      "caption": "Fruit develops dark, sunken black lesions that may ooze gummy material."
+    },
+    {
+      "id": 3861,
+      "image_id": 668,
+      "caption": "Water-soaked leaves with circular dark tan lesions on the leaf surface."
+    },
+    {
+      "id": 3862,
+      "image_id": 668,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3863,
+      "image_id": 668,
+      "caption": "Sunken, elongated stem cankers with dark brown discoloration and gummy exudate on affected cucumber plants."
+    },
+    {
+      "id": 3864,
+      "image_id": 668,
+      "caption": "Thick, gummy brown ooze exuding from stem cankers of Gummy Stem Blight."
+    },
+    {
+      "id": 3865,
+      "image_id": 668,
+      "caption": "Fruit shows sunken black lesions covered in black mold, typical of Gummy Stem Blight black rot."
+    },
+    {
+      "id": 3866,
+      "image_id": 671,
+      "caption": "Water-soaked leaves with circular dark tan lesions. Early Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3867,
+      "image_id": 671,
+      "caption": "Circular dark brown lesions with yellow halos, sometimes coalescing, on cucumber leaves."
+    },
+    {
+      "id": 3868,
+      "image_id": 671,
+      "caption": "Sunken, elongated lesions; water-soaked initially, turning brown with black pustules; may exude gummy substance."
+    },
+    {
+      "id": 3869,
+      "image_id": 671,
+      "caption": "Gummy, brown, sticky exudate forms a glistening, gel-like mass on stem cankers."
+    },
+    {
+      "id": 3870,
+      "image_id": 671,
+      "caption": "Cucumber fruit shows black rot: sunken, dark lesions with gummy exudate from Gummy Stem Blight."
+    },
+    {
+      "id": 3871,
+      "image_id": 693,
+      "caption": "Water-soaked leaf spots develop into circular dark tan lesions with brown edges."
+    },
+    {
+      "id": 3872,
+      "image_id": 693,
+      "caption": "Circular dark brown lesions with target-like rings, common on cucumber leaves from Gummy Stem Blight."
+    },
+    {
+      "id": 3873,
+      "image_id": 693,
+      "caption": "Sunken, dark brown to black stem cankers with gummy exudate, causing stem collapse in Gummy Stem Blight-affected cucumbers."
+    },
+    {
+      "id": 3874,
+      "image_id": 693,
+      "caption": "Gummy brown, sticky ooze exudes from stem cankers, appearing as a dark, viscous liquid."
+    },
+    {
+      "id": 3875,
+      "image_id": 693,
+      "caption": "Black rot: dark, sunken lesions on fruit, causing soft decay and blackening."
+    },
+    {
+      "id": 3876,
+      "image_id": 700,
+      "caption": "Water-soaked leaves with circular dark tan lesions, causing browning and leaf distortion."
+    },
+    {
+      "id": 3877,
+      "image_id": 700,
+      "caption": "Circular dark brown lesions with gray centers and yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3878,
+      "image_id": 700,
+      "caption": "Sunken, dark stem cankers with gummy exudate, causing stem rot and plant wilting."
+    },
+    {
+      "id": 3879,
+      "image_id": 700,
+      "caption": "Thick, sticky brown gummy ooze exudes from stem cankers, a hallmark of Gummy Stem Blight."
+    },
+    {
+      "id": 3880,
+      "image_id": 700,
+      "caption": "Fruits develop black, sunken lesions with gummy exudate, causing black rot."
+    },
+    {
+      "id": 3881,
+      "image_id": 702,
+      "caption": "Water-soaked leaves with circular dark tan lesions show early Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3882,
+      "image_id": 702,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3883,
+      "image_id": 702,
+      "caption": "Dark, sunken stem cankers with gummy exudate, oozing sap, on cucumber plants."
+    },
+    {
+      "id": 3884,
+      "image_id": 702,
+      "caption": "Thick, gummy brown ooze exudes from stem cankers, forming sticky, dried residues."
+    },
+    {
+      "id": 3885,
+      "image_id": 702,
+      "caption": "Fruit shows black, sunken lesions with gummy exudate and white fungal growth."
+    },
+    {
+      "id": 3886,
+      "image_id": 703,
+      "caption": "Water-soaked spots become circular dark tan lesions on affected cucumber leaves."
+    },
+    {
+      "id": 3887,
+      "image_id": 703,
+      "caption": "Circular dark brown lesions with target patterns and yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3888,
+      "image_id": 703,
+      "caption": "Sunken brown stem cankers with gummy exudate; expand, coalesce, causing stem collapse."
+    },
+    {
+      "id": 3889,
+      "image_id": 703,
+      "caption": "Brown, gummy, sticky exudate oozes from stem cankers, darkening as it dries."
+    },
+    {
+      "id": 3890,
+      "image_id": 703,
+      "caption": "Fruits show dark, sunken, water-soaked lesions that dry, turn black, and may exude gummy substance."
+    },
+    {
+      "id": 3891,
+      "image_id": 714,
+      "caption": "Initial symptoms: water-soaked leaf spots and circular dark tan lesions on cucumber leaves."
+    },
+    {
+      "id": 3892,
+      "image_id": 714,
+      "caption": "Circular dark brown leaf lesions with tan centers, expanding to cause necrosis and stem cankers."
+    },
+    {
+      "id": 3893,
+      "image_id": 714,
+      "caption": "Sunken, discolored stem cankers with gummy exudate, often cracked and decaying."
+    },
+    {
+      "id": 3894,
+      "image_id": 714,
+      "caption": "Brown, gummy, sticky ooze exudes from stem cankers in Gummy Stem Blight."
+    },
+    {
+      "id": 3895,
+      "image_id": 714,
+      "caption": "Black rot: dark, sunken, corky lesions on cucumber fruit, often with fungal growth."
+    },
+    {
+      "id": 3896,
+      "image_id": 718,
+      "caption": "Water-soaked leaf spots form circular dark tan lesions; initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3897,
+      "image_id": 718,
+      "caption": "Circular dark brown lesions with concentric rings and yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3898,
+      "image_id": 718,
+      "caption": "Sunken, dark stem cankers exude gummy substance, causing decay and plant wilting."
+    },
+    {
+      "id": 3899,
+      "image_id": 718,
+      "caption": "Thick, sticky brown gummy ooze exudes from stem cankers, characteristic of Gummy Stem Blight."
+    },
+    {
+      "id": 3900,
+      "image_id": 718,
+      "caption": "Fruits show dark, water-soaked lesions turning black, soft, and rotten with premature decay."
+    },
+    {
+      "id": 3901,
+      "image_id": 724,
+      "caption": "Water-soaked leaf spots and circular dark tan lesions are initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3902,
+      "image_id": 724,
+      "caption": "Dark brown circular lesions with yellow halos on cucumber leaves from Gummy Stem Blight."
+    },
+    {
+      "id": 3903,
+      "image_id": 724,
+      "caption": "Sunken, dark brown stem cankers with gummy exudate causing wilting and decay."
+    },
+    {
+      "id": 3904,
+      "image_id": 724,
+      "caption": "Brown, gummy, sticky ooze exudes from stem cankers in Gummy Stem Blight."
+    },
+    {
+      "id": 3905,
+      "image_id": 724,
+      "caption": "Fruit shows black, sunken lesions (black rot) causing rapid decay in humid conditions."
+    },
+    {
+      "id": 3906,
+      "image_id": 732,
+      "caption": "Water-soaked leaf areas form circular dark tan lesions as initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3907,
+      "image_id": 732,
+      "caption": "Circular dark brown lesions with tan centers, yellow halos, and possible coalescing on cucumber leaves."
+    },
+    {
+      "id": 3908,
+      "image_id": 732,
+      "caption": "Sunken, brown stem cankers with gummy exudate; may crack, causing tissue decay in cucumber plants."
+    },
+    {
+      "id": 3909,
+      "image_id": 732,
+      "caption": "Gummy, brown, sticky ooze exudes from stem cankers, forming watery lesions on infected stems."
+    },
+    {
+      "id": 3910,
+      "image_id": 732,
+      "caption": "Gummy Stem Blight causes black rot: dark, sunken, gummy lesions on cucumber fruits."
+    },
+    {
+      "id": 3911,
+      "image_id": 740,
+      "caption": "Water-soaked leaf areas and circular dark tan lesions visible on the leaf surface."
+    },
+    {
+      "id": 3912,
+      "image_id": 740,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3913,
+      "image_id": 740,
+      "caption": "Sunken, dark lesions with gummy exudate on stems, leading to cankers that may cause stem rot."
+    },
+    {
+      "id": 3914,
+      "image_id": 740,
+      "caption": "Gummy brown ooze exudes from stem cankers as sticky, translucent, brownish droplets."
+    },
+    {
+      "id": 3915,
+      "image_id": 740,
+      "caption": "Dark sunken lesions with black border on cucumber fruit."
+    },
+    {
+      "id": 3916,
+      "image_id": 741,
+      "caption": "Water-soaked leaf areas with circular dark tan lesions mark initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3917,
+      "image_id": 741,
+      "caption": "Circular dark brown lesions with pale centers on cucumber leaves."
+    },
+    {
+      "id": 3918,
+      "image_id": 741,
+      "caption": "Water-soaked, dark brown to black, girdling stem cankers with gummy exudate."
+    },
+    {
+      "id": 3919,
+      "image_id": 741,
+      "caption": "Sticky, gummy brown ooze exudes from stem cankers, forming dark, moist lesions on infected stems."
+    },
+    {
+      "id": 3920,
+      "image_id": 741,
+      "caption": "Fruit shows dark, sunken black rot lesions with water-soaked margins and possible stem decay."
+    },
+    {
+      "id": 3921,
+      "image_id": 745,
+      "caption": "Water-soaked spots on leaves become circular dark tan lesions."
+    },
+    {
+      "id": 3922,
+      "image_id": 745,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves, typical of Gummy Stem Blight."
+    },
+    {
+      "id": 3923,
+      "image_id": 745,
+      "caption": "Dark, sunken stem cankers with gummy exudate; girdling and wilting common in affected cucumber stems."
+    },
+    {
+      "id": 3924,
+      "image_id": 745,
+      "caption": "Thick, brown, gummy, sticky ooze exudes from stem cankers, a key sign of Gummy Stem Blight."
+    },
+    {
+      "id": 3925,
+      "image_id": 745,
+      "caption": "Gummy Stem Blight causes black rot: dark sunken lesions on cucumber fruit, turning black, soft, with gray mold."
+    },
+    {
+      "id": 3926,
+      "image_id": 746,
+      "caption": "Water-soaked leaf spots develop into circular dark tan lesions."
+    },
+    {
+      "id": 3927,
+      "image_id": 746,
+      "caption": "Circular dark brown lesions with tan centers and dark borders on cucumber leaves."
+    },
+    {
+      "id": 3928,
+      "image_id": 746,
+      "caption": "Dark, sunken stem cankers with gummy exudate, often girdling stems and causing wilting."
+    },
+    {
+      "id": 3929,
+      "image_id": 746,
+      "caption": "Gummy, brownish, sticky ooze exudes from stem cankers, forming amber lesions."
+    },
+    {
+      "id": 3930,
+      "image_id": 746,
+      "caption": "Black sunken lesions on fruit expand, causing dark watery rot with gummy exudate."
+    },
+    {
+      "id": 3931,
+      "image_id": 747,
+      "caption": "Water-soaked leaf edges with circular dark tan lesions indicate early Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3932,
+      "image_id": 747,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves from Gummy Stem Blight."
+    },
+    {
+      "id": 3933,
+      "image_id": 747,
+      "caption": "Water-soaked, brown, sunken stem cankers with gummy exudate and dark lesions."
+    },
+    {
+      "id": 3934,
+      "image_id": 747,
+      "caption": "Gummy brown ooze exudes from stem cankers, drying to a dark, sticky residue."
+    },
+    {
+      "id": 3935,
+      "image_id": 747,
+      "caption": "Black rot shows as dark, sunken lesions on cucumbers, causing decay."
+    },
+    {
+      "id": 3936,
+      "image_id": 748,
+      "caption": "Water-soaked leaf areas show circular dark tan lesions as initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3937,
+      "image_id": 748,
+      "caption": "Circular dark brown lesions with concentric rings and yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3938,
+      "image_id": 748,
+      "caption": "Sunken dark brown to black stem cankers; gummy exudate; may girdle, causing wilting and decay."
+    },
+    {
+      "id": 3939,
+      "image_id": 748,
+      "caption": "Thick, gummy brown ooze exudes from stem cankers, sticky and stringy."
+    },
+    {
+      "id": 3940,
+      "image_id": 748,
+      "caption": "Gummy Stem Blight causes black, sunken fruit lesions that become water-soaked, leading to black rot."
+    },
+    {
+      "id": 3941,
+      "image_id": 750,
+      "caption": "Water-soaked leaf areas show circular dark tan lesions, initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3942,
+      "image_id": 750,
+      "caption": "Dark brown circular lesions with tan centers, showing target-like rings on cucumber leaves."
+    },
+    {
+      "id": 3943,
+      "image_id": 750,
+      "caption": "Dark, sunken stem cankers with gummy exudate on Gummy Stem Blight-infected cucumber plants."
+    },
+    {
+      "id": 3944,
+      "image_id": 750,
+      "caption": "Sticky, dark-brown gummy ooze exudes from stem cankers."
+    },
+    {
+      "id": 3945,
+      "image_id": 750,
+      "caption": "Fruit shows dark, sunken black lesions with gummy exudate, causing black rot."
+    },
+    {
+      "id": 3946,
+      "image_id": 752,
+      "caption": "Initial symptoms: water-soaked leaves developing circular dark tan lesions."
+    },
+    {
+      "id": 3947,
+      "image_id": 752,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves, expanding irregularly."
+    },
+    {
+      "id": 3948,
+      "image_id": 752,
+      "caption": "Dark, sunken stem cankers with gummy exudate; may cause stem collapse in cucumber plants affected by Gummy Stem Blight."
+    },
+    {
+      "id": 3949,
+      "image_id": 752,
+      "caption": "Thick, brown, gummy ooze exudes from stem cankers, forming sticky, irregular lesions on affected plants."
+    },
+    {
+      "id": 3950,
+      "image_id": 752,
+      "caption": "Dark, sunken fruit lesions that rapidly decay, forming black rot."
+    },
+    {
+      "id": 3951,
+      "image_id": 755,
+      "caption": "Water-soaked leaf sections with circular dark tan lesions and yellowing margins."
+    },
+    {
+      "id": 3952,
+      "image_id": 755,
+      "caption": "Circular dark brown lesions with concentric rings and tan centers."
+    },
+    {
+      "id": 3953,
+      "image_id": 755,
+      "caption": "Stem cankers: water-soaked, sunken, brown lesions with gummy exudate and dark margins."
+    },
+    {
+      "id": 3954,
+      "image_id": 755,
+      "caption": "Gummy brown ooze exudes from stem cankers, sticky, dark-brown, gelatinous patches."
+    },
+    {
+      "id": 3955,
+      "image_id": 755,
+      "caption": "Fruit shows black, sunken lesions with gummy exudate, progressing to black rot and decay."
+    },
+    {
+      "id": 3956,
+      "image_id": 760,
+      "caption": "Water-soaked leaf areas and circular dark tan lesions indicate initial Gummy Stem Blight on cucumber."
+    },
+    {
+      "id": 3957,
+      "image_id": 760,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3958,
+      "image_id": 760,
+      "caption": "Dark, sunken stem cankers with gummy exudate, causing necrosis and potential stem collapse."
+    },
+    {
+      "id": 3959,
+      "image_id": 760,
+      "caption": "Gummy brown, sticky ooze exudes from stem cankers, forming amber droplets on infected stems."
+    },
+    {
+      "id": 3960,
+      "image_id": 760,
+      "caption": "Fruit shows dark sunken black lesions with gummy exudate, causing rot."
+    },
+    {
+      "id": 3961,
+      "image_id": 764,
+      "caption": "Water-soaked leaf areas with circular dark tan lesions show early Gummy Stem Blight."
+    },
+    {
+      "id": 3962,
+      "image_id": 764,
+      "caption": "Dark brown circular lesions with tan centers and distinct dark borders on cucumber leaves."
+    },
+    {
+      "id": 3963,
+      "image_id": 764,
+      "caption": "Dark, sunken stem cankers with gummy exudate, may crack and cause wilting."
+    },
+    {
+      "id": 3964,
+      "image_id": 764,
+      "caption": "Sticky, dark brown gummy ooze exudes from stem cankers caused by Gummy Stem Blight."
+    },
+    {
+      "id": 3965,
+      "image_id": 764,
+      "caption": "Gummy Stem Blight causes black rot: dark, sunken lesions with gummy exudate and soft decay on cucumber fruit."
+    },
+    {
+      "id": 3966,
+      "image_id": 767,
+      "caption": "Water-soaked leaves with circular dark tan lesions indicate initial Gummy Stem Blight symptoms in cucumbers."
+    },
+    {
+      "id": 3967,
+      "image_id": 767,
+      "caption": "Circular dark brown lesions with target-like rings on cucumber leaves from Gummy Stem Blight."
+    },
+    {
+      "id": 3968,
+      "image_id": 767,
+      "caption": "Dark, sunken, gummy cankers with necrotic tissue on cucumber stems from Gummy Stem Blight."
+    },
+    {
+      "id": 3969,
+      "image_id": 767,
+      "caption": "Gummy brown ooze exudes from stem cankers, characteristic of Gummy Stem Blight."
+    },
+    {
+      "id": 3970,
+      "image_id": 767,
+      "caption": "Black rot causes dark, sunken lesions on cucumber fruits, often with gummy exudate and decay."
+    },
+    {
+      "id": 3971,
+      "image_id": 772,
+      "caption": "Water-soaked leaf areas form circular dark tan lesions, initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3972,
+      "image_id": 772,
+      "caption": "Circular dark brown lesions with concentric rings and a darker center on cucumber leaves."
+    },
+    {
+      "id": 3973,
+      "image_id": 772,
+      "caption": "Sunken, dark brown stem cankers with gummy exudate, often cracking and causing tissue damage."
+    },
+    {
+      "id": 3974,
+      "image_id": 772,
+      "caption": "Gummy, brown, sticky ooze exudes from stem cankers caused by Gummy Stem Blight."
+    },
+    {
+      "id": 3975,
+      "image_id": 772,
+      "caption": "Fruit shows dark, sunken lesions with gummy exudate, causing black rot."
+    },
+    {
+      "id": 3976,
+      "image_id": 781,
+      "caption": "Initial symptoms: water-soaked leaves with circular dark tan lesions."
+    },
+    {
+      "id": 3977,
+      "image_id": 781,
+      "caption": "Dark brown circular lesions with gray centers and concentric rings on cucumber leaves."
+    },
+    {
+      "id": 3978,
+      "image_id": 781,
+      "caption": "Sunken stem cankers with gummy exudate, grayish mold, and possible dark borders or cracks."
+    },
+    {
+      "id": 3979,
+      "image_id": 781,
+      "caption": "Gummy brown, sticky ooze exudes from stem cankers caused by Gummy Stem Blight."
+    },
+    {
+      "id": 3980,
+      "image_id": 781,
+      "caption": "Fruits show black, leathery lesions with gummy exudate, causing black rot and decay."
+    },
+    {
+      "id": 3981,
+      "image_id": 784,
+      "caption": "Water-soaked leaf areas and circular dark tan lesions are initial Gummy Stem Blight symptoms."
+    },
+    {
+      "id": 3982,
+      "image_id": 784,
+      "caption": "Circular dark brown lesions with yellow halos and gray mold on cucumber leaves."
+    },
+    {
+      "id": 3983,
+      "image_id": 784,
+      "caption": "Elongated, sunken dark brown cankers with gummy exudate; stem girdling and rotting occur."
+    },
+    {
+      "id": 3984,
+      "image_id": 784,
+      "caption": "Gummy, brown, sticky substance exuding from stem cankers."
+    },
+    {
+      "id": 3985,
+      "image_id": 784,
+      "caption": "Gummy Stem Blight causes black, sunken fruit lesions with gummy exudate, leading to black rot and decay."
+    },
+    {
+      "id": 3986,
+      "image_id": 789,
+      "caption": "Water-soaked leaf areas and circular dark tan lesions are initial symptoms."
+    },
+    {
+      "id": 3987,
+      "image_id": 789,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves from Gummy Stem Blight."
+    },
+    {
+      "id": 3988,
+      "image_id": 789,
+      "caption": "Water-soaked, sunken stem cankers turn brown with gummy exudate on cucumbers with Gummy Stem Blight."
+    },
+    {
+      "id": 3989,
+      "image_id": 789,
+      "caption": "Gummy brown ooze exudes from stem cankers, sticky and translucent when dry."
+    },
+    {
+      "id": 3990,
+      "image_id": 789,
+      "caption": "Dark, sunken lesions on fruit; leathery, black, and may crack."
+    },
+    {
+      "id": 3991,
+      "image_id": 797,
+      "caption": "Initial symptoms show water-soaked leaves with circular dark tan lesions on the leaf surface."
+    },
+    {
+      "id": 3992,
+      "image_id": 797,
+      "caption": "Circular dark brown lesions with yellow halos on cucumber leaves."
+    },
+    {
+      "id": 3993,
+      "image_id": 797,
+      "caption": "Dark, sunken stem cankers with gummy exudate, often cracking, causing stem decay and plant deterioration."
+    },
+    {
+      "id": 3994,
+      "image_id": 797,
+      "caption": "Gummy brown ooze exudes from stem cankers, characteristic of Gummy Stem Blight."
+    },
+    {
+      "id": 3995,
+      "image_id": 797,
+      "caption": "Black rot: sunken, dark lesions on fruit, progressing to black, rotted areas."
+    },
+    {
+      "id": 3996,
+      "image_id": 798,
+      "caption": "Water-soaked leaves show circular dark tan lesions with browning edges."
+    },
+    {
+      "id": 3997,
+      "image_id": 798,
+      "caption": "Circular dark brown lesions with yellow halos, enlarging on cucumber leaves."
+    },
+    {
+      "id": 3998,
+      "image_id": 798,
+      "caption": "Stem cankers start as water-soaked, brown lesions, oozing gummy exudate, later becoming corky and sunken."
+    },
+    {
+      "id": 3999,
+      "image_id": 798,
+      "caption": "Gummy, brown, viscous ooze exudes from stem cankers, forming a sticky, thick substance."
+    },
+    {
+      "id": 4000,
+      "image_id": 798,
+      "caption": "Fruits show dark, sunken, necrotic lesions (black rot) causing decay and mummification."
+    }
+  ]
+}

@@ -26,7 +26,8 @@ def predict_captions(model, dataloader, text_field):
                 out, _ = model.beam_search(images, 20, text_field.vocab.stoi['<eos>'], 5, out_size=1)
             caps_gen = text_field.decode(out, join_words=False)
             for i, (gts_i, gen_i) in enumerate(zip(caps_gt, caps_gen)):
-                gen_i = ' '.join([k for k, g in itertools.groupby(gen_i)])
+                gen_i = ''.join([k for k, g in itertools.groupby(gen_i)])
+                print(f"生成: {gen_i.strip()}")
                 gen['%d_%d' % (it, i)] = [gen_i.strip(), ]
                 gts['%d_%d' % (it, i)] = gts_i
             pbar.update()

@@ -171,7 +171,7 @@ if __name__ == '__main__':
 
     if not os.path.isfile('vocab_%s.pkl' % args.exp_name):
         print("Building vocabulary")
-        text_field.build_vocab(train_dataset, val_dataset, min_freq=5)
+        text_field.build_vocab(train_dataset, val_dataset, min_freq=1)
         pickle.dump(text_field.vocab, open('vocab_%s.pkl' % args.exp_name, 'wb'))
     else:
         text_field.vocab = pickle.load(open('vocab_%s.pkl' % args.exp_name, 'rb'))

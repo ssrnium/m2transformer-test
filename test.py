@@ -19,6 +19,7 @@ def predict_captions(model, dataloader, text_field):
     model.eval()
     gen = {}
     gts = {}
+    printed = 0
     with tqdm(desc='Evaluation', unit='it', total=len(dataloader)) as pbar:
         for it, (images, caps_gt) in enumerate(iter(dataloader)):
             images = images.to(device)
@@ -26,8 +27,11 @@ def predict_captions(model, dataloader, text_field):
                 out, _ = model.beam_search(images, 20, text_field.vocab.stoi['<eos>'], 5, out_size=1)
             caps_gen = text_field.decode(out, join_words=False)
             for i, (gts_i, gen_i) in enumerate(zip(caps_gt, caps_gen)):
-                gen_i = ''.join([k for k, g in itertools.groupby(gen_i)])
-                print(f"生成: {gen_i.strip()}")
+                gen_i = ' '.join([k for k, g in itertools.groupby(gen_i)])
+                if printed < 10:
+                    print(f"生成: {gen_i.strip()}")
+                    print(f"参考: {gts_i}")
+                    printed += 1
                 gen['%d_%d' % (it, i)] = [gen_i.strip(), ]
                 gts['%d_%d' % (it, i)] = gts_i
             pbar.update()
@@ -61,7 +65,7 @@ if __name__ == '__main__':
     # Create the dataset
     dataset = COCO(image_field, text_field, 'coco/images/', args.annotation_folder, args.annotation_folder)
     _, _, test_dataset = dataset.splits
-    text_field.vocab = pickle.load(open('vocab.pkl', 'rb'))
+    text_field.vocab = pickle.load(open('vocab_mini_en.pkl', 'rb'))
 
     # Model and dataloaders
     encoder = MemoryAugmentedEncoder(3, 0, attention_module=ScaledDotProductAttentionMemory,
@@ -69,7 +73,7 @@ if __name__ == '__main__':
     decoder = MeshedDecoder(len(text_field.vocab), 54, 3, text_field.vocab.stoi['<pad>'])
     model = Transformer(text_field.vocab.stoi['<bos>'], encoder, decoder).to(device)
 
-    data = torch.load('saved_models/m2_transformer_zh_char_v7_best.pth')
+    data = torch.load('saved_models/mini_en_best.pth')
     model.load_state_dict(data['state_dict'])
 
     dict_dataset_test = test_dataset.image_dictionary({'image': image_field, 'text': RawField()})

@@ -4,24 +4,17 @@
 import os
 import subprocess
 import threading
-import tarfile
-from utils import download_from_url
 
-METEOR_GZ_URL = 'http://aimagelab.ing.unimore.it/speaksee/data/meteor.tgz'
 METEOR_JAR = 'meteor-1.5.jar'
 
 class Meteor:
     def __init__(self):
         base_path = os.path.dirname(os.path.abspath(__file__))
         jar_path = os.path.join(base_path, METEOR_JAR)
-        gz_path = os.path.join(base_path, os.path.basename(METEOR_GZ_URL))
         if not os.path.isfile(jar_path):
-            if not os.path.isfile(gz_path):
-                download_from_url(METEOR_GZ_URL, gz_path)
-            tar = tarfile.open(gz_path, "r")
-            tar.extractall(path=os.path.dirname(os.path.abspath(__file__)))
-            tar.close()
-            os.remove(gz_path)
+            raise FileNotFoundError(
+                'METEOR jar not found. Please place {} at {}'.format(METEOR_JAR, jar_path)
+            )
 
         self.meteor_cmd = ['java', '-jar', '-Xmx2G', METEOR_JAR, \
                 '-', '-', '-stdio', '-l', 'en', '-norm']

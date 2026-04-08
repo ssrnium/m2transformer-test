@@ -11,9 +11,11 @@ class Meteor:
     def __init__(self):
         base_path = os.path.dirname(os.path.abspath(__file__))
         jar_path = os.path.join(base_path, METEOR_JAR)
+        self.lock = threading.Lock()
+        self.meteor_p = None
         if not os.path.isfile(jar_path):
             raise FileNotFoundError(
-                'METEOR jar not found. Please place {} at {}'.format(METEOR_JAR, jar_path)
+                'METEOR jar not found. Please place {} under evaluation/meteor/.'.format(METEOR_JAR)
             )
 
         self.meteor_cmd = ['java', '-jar', '-Xmx2G', METEOR_JAR, \
@@ -23,8 +25,6 @@ class Meteor:
                 stdin=subprocess.PIPE, \
                 stdout=subprocess.PIPE, \
                 stderr=subprocess.PIPE)
-        # Used to guarantee thread safety
-        self.lock = threading.Lock()
 
     def compute_score(self, gts, res):
         assert(gts.keys() == res.keys())
@@ -58,6 +58,8 @@ class Meteor:
         return ' '.join(numbers)
 
     def __del__(self):
+        if getattr(self, 'lock', None) is None or getattr(self, 'meteor_p', None) is None:
+            return
         self.lock.acquire()
         self.meteor_p.stdin.close()
         self.meteor_p.kill()
